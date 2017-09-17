@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
 
     $timestamp = strtotime($month . " " . $date . " " . $year . " " . $time);
 
-    $entry = nl2br($entry);
+//    $entry = nl2br($entry);
 
     if (!get_magic_quotes_gpc()) {
         $title = addslashes($title);
