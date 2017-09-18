@@ -29,7 +29,7 @@
 
 <div class="container">
     <div class="text-center">
-        <img class="img-fluid cover-small" src="../img/cover2.png"/>
+       <a href="../index.php"> <img height="50px" class="cover-small" src="../img/cover2.png"/> </a>
     </div>
 
     <div class="row">

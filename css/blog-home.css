@@ -25,6 +25,14 @@
     padding: 35px;
 }
 
+.h3_01 {
+	font-family: 'Open Sans';
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.14;
+	color: #696969;
+}
+
 button[type="submit"] {
     cursor: pointer;
     width: 100%;
