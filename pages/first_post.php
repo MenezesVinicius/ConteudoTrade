@@ -146,7 +146,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Registro efetuado com sucesso! Agora só aproveitar o nosso conteúdo.
+                    Inscrição feita com sucesso! Bem vindo a nossa newsletter!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
