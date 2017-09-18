@@ -4,206 +4,137 @@ include('src/helpers.php');
 
 global $con;
 $helper = new helpers();
-$blog_postnumber = 5;
-
-if (!isset($_GET['page'])) {
-    $page = 1;
-} else {
-    $page = (int)$_GET['page'];
-}
-$from = (($page * $blog_postnumber) - $blog_postnumber);
-
-$current_month = date("F");
-$current_date = date("d");
-$current_year = date("Y");
-$current_time = date("H:i");
+date_default_timezone_set('America/Sao_Paulo');
+$dataLocal = date('Y/m/d H:i:s', time());
 
 if (isset($_POST['submit'])) {
 
     global $con;
     $helper = new helpers();
     $nome = $_POST['nome'];
-    $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
-    $timestamp = strtotime($current_month . " " . $current_date . " " . $current_year . " " . $current_time);
+    $timestamp = strtotime($dataLocal);
 
     if (!get_magic_quotes_gpc()) {
         $email = addslashes($email);
         $nome = addslashes($nome);
-        $sobrenome = addslashes($sobrenome);
     }
 
-
     $ip = $helper->getIP();
-    $sql = "INSERT INTO leads (nome, sobrenome, email, ip, timestamp) VALUES ('$nome', '$sobrenome', '$email', '$ip', '$timestamp')";
+
+    $sql = "INSERT INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
     $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
 }
 
 ?>
-<?php
-//$total_results = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) as num FROM php_blog"));
-//$total_pages = ceil($total_results['num'] / $blog_postnumber);
-//if ($page > 1) {
-//    $prev = ($page - 1);
-//    echo "<a href=\"index.php?page=$prev\">&lt;&lt;  Newer</a> ";
-//}
-//for ($i = 1; $i <= $total_pages; $i++) {
-//    if ($page == $i) {
-//        echo "$i ";
-//    } else {
-//        echo "<a href=\"index.php?page=$i\">$i</a> ";
-//    }
-//}
-//if ($page < $total_pages) {
-//    $next = ($page + 1);
-//    echo "<a href=\"index.php?page=$next\">Older &gt;&gt;</a>";
-//}
-//
-//$sql = "SELECT * FROM leads";
-//$result = mysqli_query($con, $sql) or print("Can't get ip.<br />" . $sql . "<br />" . mysql_error());
-//while ($row = mysqli_fetch_array($result)) {
-//    echo $row['id'];
-//}
-//
-//
-?>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Conteúdo Trade</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
-          type='text/css'>
-    <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/blog-home.css" rel="stylesheet">
 
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments)
-        }
-        ;
-        gtag('js', new Date());
-
-        gtag('config', 'UA-106570963-1');
-    </script>
 </head>
-<body>
 
-<!-- Navigation 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-        <!--<a class="navbar-brand" href="index.html">Start Bootstrap</a> 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="src/about.php">About</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>-->
+<body class="bg-light">
 
-<!-- Page Header -->
-<header class="masthead" style="background-image: url('img/home2.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="site-heading">
-                    <img src="img/group.png"/>
+<header>
+    <img src="img/cover.png" class="img-fluid cover" alt="Responsive image">
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4 my-4">
+                <div class="media">
+                    <img class="d-flex post-image" src="img/post_1.jpg" alt="Generic placeholder image">
+
+                    <div class="media-body">
+                        <div class="card-body">
+                            <a href="pages/single_post.php"><h2 class="card-title">Aprenda a diferença entre Shopper e
+                                    Consumidor</h2></a>
+
+                            <p class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
+                                atualidade!</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    Postado 17 de Setembro, 2017
+
                 </div>
             </div>
         </div>
-    </div>
-</header>
 
-<!-- Main Area -->
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-			<div class="row">
-				<div class="col-md-3">
-					<img width="160" height="106" src="img/post_1.jpg" class="img-responsive img-box img-thumbnail">
-				</div>
-				<div class="col-md-9">
-            <h2 class="section-heading"><a href="src/single_post.php">Aprenda a diferença entre Shopper e Consumidor</a>
-            </h2>
-
-            <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
-            <hr>
-			</div>
-			</div>
-			
-        </div>
-
+        <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
-            <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                <p class="news_t1">Trade Marketing</p>
 
-                <p class="news_t2">Newsletter</p>
+            <!-- Side Widget -->
+            <!--<div class="card my-4">-->
+            <!--<div class="card-body">-->
+            <!--You can put anything you want inside of these side widgets. They are easy to use, and feature the-->
+            <!--new Bootstrap 4 card containers!-->
+            <!--</div>-->
+            <!--</div>-->
 
-                <p class="news_call">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
-                <fieldset>
-                    <label> Nome completo: </label>
-                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required>
-                </fieldset>
-                <fieldset>
-                    <label> Email profissional: </label>
-                    <input placeholder="Email" type="email" tabindex="3" name="email" required>
-                </fieldset>
-                <fieldset>
-                    <button name="submit" type="submit" id="submit">Quero Receber</button>
-                </fieldset>
-                </p>
-            </form>
+            <!-- Search Widget -->
+            <div class="card my-4">
+
+                <div class="text-center newsletter card-header">
+                    <p class="news_t1">Trade Marketing</p>
+
+                    <p class="news_t2">Newsletter</p>
+
+                    <p class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                        nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
+
+                </div>
+
+                <div class="card-body ">
+                    <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                        <fieldset>
+                            <label> Nome completo: </label>
+                            <input placeholder="Nome completo" type="text" tabindex="1" name="nome" required>
+                        </fieldset>
+                        <fieldset>
+                            <label> Email profissional: </label>
+                            <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="submit">Quero Receber</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
         </div>
+
     </div>
-    <!--    <div class="row">-->
-    <!--        <div class="span8">-->
-    <!--            <p></p>-->
-    <!--            <p>-->
-    <!--                <i class="icon-user"></i> by <a href="#">John</a>-->
-    <!--                | <i class="icon-calendar"></i> Sept 16th, 2012-->
-    <!--                | <i class="icon-comment"></i> <a href="#">3 Comments</a>-->
-    <!--                | <i class="icon-share"></i> <a href="#">39 Shares</a>-->
-    <!--                | <i class="icon-tags"></i> Tags : <a href="#"><span class="label label-info">Snipp</span></a>-->
-    <!--                <a href="#"><span class="label label-info">Bootstrap</span></a>-->
-    <!--                <a href="#"><span class="label label-info">UI</span></a>-->
-    <!--                <a href="#"><span class="label label-info">growth</span></a>-->
-    <!--            </p>-->
-    <!--        </div>-->
-    <!--    </div>-->
+    <!-- /.row -->
+
 </div>
-<hr>
-<footer>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
     <div class="container text-center">
         <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
           <span class="fa-stack fa-lg face-icon">
@@ -211,21 +142,17 @@ if (isset($_POST['submit'])) {
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-        <p class="copyright text-muted">Copyright &copy; Conteúdo Trade 2017</p>
+
+        <p class="m-2 text-center text-white">Copyright &copy; Conteúdo Trade 2017</p>
     </div>
+    <!-- /.container -->
 </footer>
 
-</body>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/popper/popper.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- Custom scripts for this template -->
-<script src="js/clean-blog.min.js"></script>
-
+</body>
 
 </html>
-
-
-
