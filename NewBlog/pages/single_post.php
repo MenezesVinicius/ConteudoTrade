@@ -1,3 +1,33 @@
+<?php
+include('../src/db.php');
+include('../src/helpers.php');
+
+global $con;
+$helper = new helpers();
+date_default_timezone_set('America/Sao_Paulo');
+$dataLocal = date('Y/m/d H:i:s', time());
+
+if (isset($_POST['submit'])) {
+
+    global $con;
+    $helper = new helpers();
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $timestamp = strtotime($dataLocal);
+
+    if (!get_magic_quotes_gpc()) {
+        $email = addslashes($email);
+        $nome = addslashes($nome);
+    }
+
+    $ip = $helper->getIP();
+
+    $sql = "INSERT INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
+    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,42 +38,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Home - Start Bootstrap Template</title>
+    <title>Conteúdo Trade</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
 
 </head>
 
-<body>
-
-<!-- Navigation -->
-<nav class="navbar-expand-lg navbar navbar-custom navbar-dark navbar-inverse fixed-top nav-custom">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<body class="bg-light">
 
 <header>
-    <img src="../img/cover.png" class="img-fluid cover" alt="Responsive image">
+    <a href="../index.php"><img src="../img/cover.png" class="img-fluid cover" alt="Responsive image"></a>
 </header>
 
 <!-- Page Content -->
@@ -54,152 +64,104 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
             <!-- Title -->
-            <h1 class="mt-4">Post Title</h1>
-
-            <!-- Author -->
-            <p class="lead">
-                by
-                <a href="#">Start Bootstrap</a>
-            </p>
+            <h1 class="mt-4">Aprenda a diferença entre Shopper e Consumidor</h1>
+            <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
 
             <hr>
-
             <!-- Date/Time -->
-            <p>Posted on January 1, 2017 at 12:00 PM</p>
-
-            <hr>
-
-            <!-- Preview Image -->
-            <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+            <p>Postado 17 de Setembro, 2017</p>
 
             <hr>
 
             <!-- Post Content -->
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut,
-                error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae
-                laborum minus inventore?</p>
+            <p>Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do
+                consumidor. As empresas em geral buscam oferecer ao cliente a melhor experiência possível na hora da
+                compra, pensando nisso, é essencial o entendimento da diferença entre shopper e consumidor.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste
-                ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus,
-                voluptatibus.</p>
+            <h3>Então quem é consumidor e quem é o Shopper?</h3>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde
-                eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis.
-                Enim, iure!</p>
-
-            <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                    ante.</p>
-                <footer class="blockquote-footer">Someone famous in
-                    <cite title="Source Title">Source Title</cite>
-                </footer>
-            </blockquote>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat
-                totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam
-                tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae?
-                Qui, necessitatibus, est!</p>
-
-            <hr>
-
-            <div class="row ebook">
-
-                <div class="col-md-12 align-self-center">
-                    You can put anything you want inside of these side widgets. They are easy to use, and feature the
-                    new Bootstrap 4 card containers!
-
-                    <div class="my-4">
-                        <div class="text-center text-primary newsletter">
-                            <h3>Trade Marketing</h3>
-                            <h4>Newsletter</h4>
-                        </div>
-                        <div>
-                            <form>
-                                <div class="form-group">
-                                    <label for="fullname">Nome completo</label>
-                                    <input type="text" class="form-control" id="fullname"
-                                           aria-describedby="name" placeholder="Nome completo">
-                                    </small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Password</label>
-                                    <input type="email" class="form-control" id="email"
-                                           placeholder="E-mail">
-                                </div>
-
-                                <button type="submit" class="btn btn-success">Submit</button>
-                            </form>
-                        </div>
-                    </div>
+            <p>Consumidor é a pessoa que usa, consome o bem-serviço adquirido, seja por ela ou por outra pessoa.</p>
 
 
+            <p>Shopper é a pessoa que irá comprar tal produto, quem escolhe onde comprar e se estabelece tal
+                comportamento no ponto de venda, ou seja, é quem passa pelos estímulos no processo de interação com
+                produtos e processos de vendas.</p>
+
+            <p>Observe que o papel do consumidor e do shopper podem não ser exercidos pela mesma pessoa. Um exemplo
+                é quando o marido compra um esmalte para sua esposa, ele exerce o papel de shopper enquanto ela é a
+                consumidora.
+            </p>
+
+            <h3>Mas por que a diferença importa?</h3>
+
+            <p>É importantíssimo principalmente para as empresas que trabalham com trade marketing compreender essa
+                diferença e conhecer muito bem seu público alvo, para a partir daí desenvolverem suas estratégias.
+            </p>
+
+            <p>Atualmente o cliente tem acesso à diversos canais de compras, fácil acesso à informação, o que o
+                torna mais exigente. Isso faz com que o desafio das empresas cada seja vez maior, pois o cliente não
+                busca mais apenas apenas adquirir algo, e sim o benefício que aquele produto-serviço irá
+                proporcionar. </p>
+
+            <p> É preciso ter em mente que o cliente, indiferente de ser o consumidor final ou não, está em busca de
+                algo que alcance ou supere suas expectativas e as empresas e seus colaboradores devem trabalhar
+                sempre em prol deste fator. </p>
+
+
+        </div>
+
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+            <div class="card my-4">
+
+                <div class="text-center newsletter card-header">
+                    <p class="news_t1">Trade Marketing</p>
+
+                    <p class="news_t2">Newsletter</p>
+
+                    <p class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                        nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
+
+                </div>
+
+                <div class="card-body ">
+                    <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                        <fieldset>
+                            <label> Nome completo: </label>
+                            <input placeholder="Nome completo" type="text" tabindex="1" name="nome" required>
+                        </fieldset>
+                        <fieldset>
+                            <label> Email profissional: </label>
+                            <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="submit">Quero Receber</button>
+                        </fieldset>
+                    </form>
                 </div>
             </div>
 
         </div>
 
-
-        <!--&lt;!&ndash; Pagination &ndash;&gt;-->
-        <!--<ul class="pagination justify-content-center mb-4">-->
-        <!--<li class="page-item">-->
-        <!--<a class="page-link" href="#">&larr; Older</a>-->
-        <!--</li>-->
-        <!--<li class="page-item disabled">-->
-        <!--<a class="page-link" href="#">Newer &rarr;</a>-->
-        <!--</li>-->
-        <!--</ul>-->
-
-    <!-- Sidebar Widgets Column -->
-    <div class="col-md-4">
-
-        <!-- Side Widget -->
-        <div class="card my-4">
-            <div class="card-body">
-                You can put anything you want inside of these side widgets. They are easy to use, and feature the
-                new Bootstrap 4 card containers!
-            </div>
-        </div>
-
-        <!-- Search Widget -->
-        <div class="card my-4">
-            <div class="text-center text-primary newsletter">
-                <h3>Trade Marketing</h3>
-                <h4>Newsletter</h4>
-            </div>
-            <div class="card-body ">
-                <form>
-                    <div class="form-group">
-                        <label for="fullname">Nome completo</label>
-                        <input type="text" class="form-control" id="fullname"
-                               aria-describedby="name" placeholder="Nome completo">
-                        </small>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Password</label>
-                        <input type="email" class="form-control" id="email"
-                               placeholder="E-mail">
-                    </div>
-
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </form>
-            </div>
-        </div>
-
-
     </div>
-
-</div>
-<!-- /.row -->
+    <!-- /.row -->
 
 </div>
 <!-- /.container -->
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Conteúdo Trade 2017</p>
+    <div class="container text-center">
+        <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
+          <span class="fa-stack fa-lg face-icon">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+
+        <p class="m-2 text-center text-white">Copyright &copy; Conteúdo Trade 2017</p>
     </div>
     <!-- /.container -->
 </footer>
