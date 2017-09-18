@@ -145,15 +145,20 @@ if (isset($_POST['submit'])) {
 
 <div class="container">
     <div class="row">
-		<div class="col-md-3">
-			<img width="160" height="106" src="img/post_1.jpg" class="img-responsive img-box img-thumbnail">
-		</div>
         <div class="col-md-8">
+			<div class="row">
+				<div class="col-md-3">
+					<img width="160" height="106" src="img/post_1.jpg" class="img-responsive img-box img-thumbnail">
+				</div>
+				<div class="col-md-9">
             <h2 class="section-heading"><a href="src/single_post.php">Aprenda a diferença entre Shopper e Consumidor</a>
             </h2>
 
             <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
             <hr>
+			</div>
+			</div>
+			
         </div>
 
         <div class="col-md-4">
