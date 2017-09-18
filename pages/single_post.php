@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
-
+    <script src="../js/helpers.js"></script>
 </head>
 
 <body class="bg-light">
@@ -127,14 +127,14 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div class="card-body ">
-                    <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <form id="contact"  method="post" onsubmit="return validate()" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <fieldset>
                             <label> Nome completo: </label>
-                            <input placeholder="Nome completo" type="text" tabindex="1" name="nome" required>
+                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form" required>
                         </fieldset>
                         <fieldset>
                             <label> Email profissional: </label>
-                            <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                            <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
                         </fieldset>
                         <fieldset>
                             <button name="submit" type="submit" id="submit">Quero Receber</button>

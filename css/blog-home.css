@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
  */
 
+.cover{
+    width: 100%;
+    z-index: 0;
+}
 
 .nav-custom{
     background-color:rgba(0, 0, 0, 0.7);
