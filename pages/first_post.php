@@ -18,6 +18,15 @@
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
     <script src="../js/helpers.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106570963-1');
+    </script>
 </head>
 
 <body class="bg-light">
