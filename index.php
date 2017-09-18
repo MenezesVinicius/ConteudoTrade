@@ -72,9 +72,6 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Conteúdo Trade</title>
 
     <!-- Bootstrap core CSS -->
@@ -204,10 +201,10 @@ if (isset($_POST['submit'])) {
                     mais fácil!</p>
                 <fieldset>
                     <label> Nome completo: </label>
-                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required autofocus>
+                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required autofocus>
+                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required>
                 </fieldset>
                 <fieldset>
                     <label> Email profissional: </label>
@@ -236,9 +233,6 @@ if (isset($_POST['submit'])) {
     <!--        </div>-->
     <!--    </div>-->
 </div>
-
-
-</body>
 <hr>
 <footer>
     <div class="container">
@@ -260,6 +254,7 @@ if (isset($_POST['submit'])) {
     </div>
 </footer>
 
+</body>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/popper/popper.min.js"></script>
@@ -270,20 +265,6 @@ if (isset($_POST['submit'])) {
 
 
 </html>
-<?php
-$sql = "SELECT * FROM leads";
-
-$result = mysqli_query($con, $sql) or print ("Can't select entry from table php_blog.<br />" . $sql . "<br />" . mysql_error());
-
-while ($row = mysqli_fetch_array($result)) {
-    $ip = $row['ip'];
-    $ip = long2ip($ip);
-?>
-    <p><strong><?php echo $ip; ?></strong><br/><br/>
-    <?php
-    }
-    ?>
-
 
 
 

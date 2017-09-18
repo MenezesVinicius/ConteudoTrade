@@ -37,8 +37,8 @@
 
         gtag('config', 'UA-106570963-1');
     </script>
-	
-	
+
+
 </head>
 
 <body>
@@ -84,6 +84,7 @@
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <h2 class="section-heading">About Us</h2>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates
                 odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus
                 consectetur?</p>
@@ -102,36 +103,37 @@
 <script src="../js/clean-blog.min.js"></script>
 
 
-    <hr>
+<hr>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
+<!-- Footer -->
+<footer>
+    <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                   </span>
-                </a>
-              </li>
-              </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
-          </div>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
+<!-- Custom scripts for this template -->
+<script src="js/clean-blog.min.js"></script>
 
 
 </html>
