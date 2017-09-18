@@ -147,6 +147,7 @@ if (isset($_POST['submit'])) {
     <div class="row">
 		<div class="col-md-3">
 			<img width="160" height="106" src="img/post_1.jpg" class="img-responsive img-box img-thumbnail">
+		</div>
         <div class="col-md-8">
             <h2 class="section-heading"><a href="src/single_post.php">Aprenda a diferença entre Shopper e Consumidor</a>
             </h2>
