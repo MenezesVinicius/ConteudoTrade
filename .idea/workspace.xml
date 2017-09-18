@@ -23,27 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-0.0506993" vertical-offset="709" max-vertical-offset="4182">
+            <state line="124" column="21" selection-start="4195" selection-end="4195" vertical-scroll-proportion="-14.153846" vertical-offset="1740" max-vertical-offset="4182">
               <folding>
                 <element signature="e#1121#1219#0" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1505693802814" expanded="true" signature="861:980" placeholder="INSERT INTO ..." />
-                <marker date="1505693802814" expanded="true" signature="4882:4958" placeholder="SELECT * FRO..php_blog..." />
+                <marker date="1505694763189" expanded="true" signature="861:980" placeholder="INSERT INTO ..." />
+                <marker date="1505694763189" expanded="true" signature="4881:4957" placeholder="SELECT * FRO..php_blog..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_post.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/new_post.php">
+      <file leaf-file-name="single_post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/single_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="71" selection-start="3135" selection-end="3135" vertical-scroll-proportion="-34.923077" vertical-offset="588" max-vertical-offset="1734">
+            <state line="84" column="67" selection-start="3008" selection-end="3059" vertical-scroll-proportion="-9.807693" vertical-offset="1173" max-vertical-offset="3366">
               <folding>
-                <marker date="1505690589372" expanded="true" signature="691:777" placeholder="INSERT INTO ..." />
-                <marker date="1505690589372" expanded="true" signature="1061:1163" placeholder="INSERT INTO ..." />
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6569#6572#0" expanded="true" />
+                <marker date="1505694819254" expanded="true" signature="5965:6010" placeholder="SELECT * FRO..php_blog..." />
+                <marker date="1505694819254" expanded="true" signature="6591:6655" placeholder="SELECT * FRO..php_blog..." />
+                <marker date="1505694819254" expanded="true" signature="6826:6885" placeholder="SELECT * FRO..php_blog..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="48" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.24444444" vertical-offset="1251" max-vertical-offset="1853">
+              <folding>
+                <element signature="n#style#0;n#header#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,17 +73,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/single_post.php" />
         <option value="$PROJECT_DIR$/src/helpers.php" />
         <option value="$PROJECT_DIR$/src/db.php" />
         <option value="$PROJECT_DIR$/src/footer.html" />
         <option value="$PROJECT_DIR$/src/header.html" />
         <option value="$PROJECT_DIR$/styles/trade.css" />
         <option value="$PROJECT_DIR$/js/clean-blog.js" />
-        <option value="$PROJECT_DIR$/css/clean-blog.min.css" />
         <option value="$PROJECT_DIR$/src/new_post.php" />
         <option value="$PROJECT_DIR$/src/save_lead.php" />
+        <option value="$PROJECT_DIR$/css/clean-blog.min.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/single_post.php" />
+        <option value="$PROJECT_DIR$/src/about.php" />
       </list>
     </option>
   </component>
@@ -136,6 +151,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConteudoTrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConteudoTrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,17 +256,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/single_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="19" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-33.346153" vertical-offset="0" max-vertical-offset="1054">
-          <folding>
-            <marker date="1505674667320" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..php_blog..." />
-            <marker date="1505674667320" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..php_blog..." />
-            <marker date="1505674667320" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..php_blog..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="2" selection-start="819" selection-end="819" vertical-scroll-proportion="-18.576923" vertical-offset="146" max-vertical-offset="731">
@@ -324,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/clean-blog.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="632" column="0" selection-start="13972" selection-end="13972" vertical-scroll-proportion="-0.3645485" vertical-offset="10962" max-vertical-offset="12444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="22" selection-start="118" selection-end="118" vertical-scroll-proportion="0.11623932" vertical-offset="0" max-vertical-offset="585">
@@ -340,22 +351,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/new_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="71" selection-start="3135" selection-end="3135" vertical-scroll-proportion="-34.923077" vertical-offset="588" max-vertical-offset="1734">
+        <state line="88" column="71" selection-start="3135" selection-end="3135" vertical-scroll-proportion="1.5521368" vertical-offset="588" max-vertical-offset="1734">
           <folding>
-            <marker date="1505690589372" expanded="true" signature="691:777" placeholder="INSERT INTO ..." />
-            <marker date="1505690589372" expanded="true" signature="1061:1163" placeholder="INSERT INTO ..." />
+            <marker date="1505690589372" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1505690589372" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/clean-blog.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="1" selection-start="917" selection-end="917" vertical-scroll-proportion="0.11888112" vertical-offset="765" max-vertical-offset="12444">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1111" selection-end="1111" vertical-scroll-proportion="-0.0506993" vertical-offset="709" max-vertical-offset="4182">
+        <state line="124" column="21" selection-start="4195" selection-end="4195" vertical-scroll-proportion="-14.153846" vertical-offset="1740" max-vertical-offset="4182">
           <folding>
             <element signature="e#1121#1219#0" expanded="true" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1505693802814" expanded="true" signature="861:980" placeholder="INSERT INTO ..." />
-            <marker date="1505693802814" expanded="true" signature="4882:4958" placeholder="SELECT * FRO..php_blog..." />
+            <marker date="1505694763189" expanded="true" signature="861:980" placeholder="INSERT INTO ..." />
+            <marker date="1505694763189" expanded="true" signature="4881:4957" placeholder="SELECT * FRO..php_blog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="67" selection-start="3008" selection-end="3059" vertical-scroll-proportion="-9.807693" vertical-offset="1173" max-vertical-offset="3366">
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6569#6572#0" expanded="true" />
+            <marker date="1505694819254" expanded="true" signature="5965:6010" placeholder="SELECT * FRO..php_blog..." />
+            <marker date="1505694819254" expanded="true" signature="6591:6655" placeholder="SELECT * FRO..php_blog..." />
+            <marker date="1505694819254" expanded="true" signature="6826:6885" placeholder="SELECT * FRO..php_blog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="48" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.24444444" vertical-offset="1251" max-vertical-offset="1853">
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
