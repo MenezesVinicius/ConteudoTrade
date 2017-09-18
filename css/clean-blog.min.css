@@ -3,15 +3,20 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
+ 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
     font-size: 20px;
     color: #333;
-    font-family: Lora, 'Times New Roman', serif
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 p {
-    line-height: 1.5;
+	font-size:18px;
+    line-height: 1.32;
     /*margin: 30px 0*/
+	font-family: 'Open Sans';
 }
 
 p a {
@@ -23,11 +28,75 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+h1{
+	font-size: 42px;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	    width: 100%; /* or your desired width */
+    text-align: center; /* this will center the list items */
+}
+
+li {
+	float: left;
+	    display: inline-block; /* the key bit */
+    *display: inline; /* IE7 hack */
+    *zoom: 1; /* IE7 hack */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+li a {
+}
+
+
+h3 {
+  font-family: 'Open Sans';
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.14;
+  text-align: left;
+  color: #191919;	
+}
+
+h5 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+h6{
+  font-family: 'Open Sans';
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  color: #555555;
+}
+
 a {
     color: #333;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s
+}
+
+.bl {
+	display: inline-block;
+}
+
+.img-holder {
+	display: block;
+	align: right;
+	width: 300px;
+	height: 150px;
+	background-color: black;
 }
 
 a:focus, a:hover {
@@ -38,16 +107,75 @@ a img:focus, a img:hover {
     cursor: zoom-in
 }
 
+
+.ebook_box {
+	background-color: #395072;
+	    border-radius: 8px;
+}
+
+.bb_c1{
+	margin-left: 26px;
+	margin-top: 26px;
+	margin-bottom: 16px;
+}
+
+.bb_c2{
+	margin-top: 26px;
+	margin-bottom: 16px;
+	margin-right: 20px;
+}
+
+.ebook_title {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.ebook_text {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+	
+.ebook_text2 {
+	font-style: italic;
+		font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+
+
+.downpage {
+	width: auto;
+	
+}
+
+.share_reminder {
+	padding-top: 50px;
+	text-align: center;
+	margin: auto;
+}
+.share_reminder2 {
+	width: 156px;
+	margin: auto;
+}
+
 blockquote {
     font-style: italic;
     color: #777
 }
 
+
+
 .section-heading {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 700;
     /*margin-top: 60px*/
 }
+
 
 .caption {
     font-size: 14px;
@@ -83,7 +211,8 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #0085a1
+    -webkit-tap-highlight-color: #0085a1;
+	background-color: #f7f7f7;
 }
 
 #mainNav {
@@ -617,13 +746,19 @@ footer .copyright {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-    background: #F9F9F9;
+    background: #ffffff;
     padding: 25px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border: solid 1px #dedede;
+}
+
+#contact {
+    background: #ffffff;
+    padding: 25px;
+    border: solid 1px #dedede;
 }
 
 #contact h3 {
@@ -680,7 +815,7 @@ fieldset {
     cursor: pointer;
     width: 100%;
     border: none;
-    background: #4CAF50;
+    background: #f5a40b;
     color: #FFF;
     margin: 0 0 5px;
     padding: 10px;
@@ -688,7 +823,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-    background: #43A047;
+    background: #df9407;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -708,6 +843,47 @@ fieldset {
     border: 1px solid #aaa;
 }
 
+.news_t1 {
+  font-family: 'Open Sans';
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #374e70;
+  margin-bottom: 0px;
+}
+ 
+.news_t2 {
+  font-family: 'Open Sans';
+  font-size: 26px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: #ffab00;
+}
+
+.news_call {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-align: left;
+  color: #141414;
+}
+
+label {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  margin-left: 2px;
+  text-align: left;
+  color: #7a7a7a;
+}
+
+.label2 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  margin-left: 2px;
+  text-align: left;
+  color: #fff;
+}
+
 ::-webkit-input-placeholder {
     color: #888;
 }
@@ -724,3 +900,102 @@ fieldset {
     color: #888;
 }
 
+/*!
+ * CONTACT FORM 2
+ */
+
+
+#contact2 input[type="text"],
+#contact2 input[type="email"],
+#contact2 input[type="tel"],
+#contact2 input[type="url"],
+#contact2 textarea,
+#contact2 button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+#contact2 {
+    padding-left: 25px;
+    padding-right: 25px;
+	padding-bottom: 10px;
+}
+
+#contact2 h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#contact2 h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset2 {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact2 input[type="text"],
+#contact2 input[type="email"],
+#contact2 input[type="tel"],
+#contact2 input[type="url"],
+#contact2 textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact2 input[type="text"]:hover,
+#contact2 input[type="email"]:hover,
+#contact2 input[type="tel"]:hover,
+#contact2 input[type="url"]:hover,
+#contact2 textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact2 textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact2 button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f5a40b;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact2 button[type="submit"]:hover {
+    background: #df9407;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact2 button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact2 input:focus,
+#contact2 textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}

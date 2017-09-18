@@ -81,52 +81,141 @@
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <h2 class="section-heading">The Final Frontier</h2>
-                <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it
-                    is a task to occupy the generations. And no matter how much progress one makes, there is always the
-                    thrill of just beginning.</p>
+            <div class="col-8">
+                <h1 class="section-heading">Aprenda a diferença entre Shopper e Consumidor </h1>
+                
+				<h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
+				<hr>
+				
+                <p>Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do consumidor. As empresas em geral buscam oferecer ao cliente a melhor experiência possível na hora da compra, pensando nisso, é essencial o entendimento da diferença entre shopper e consumidor.</p>
 
-                <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it
-                    is a task to occupy the generations. And no matter how much progress one makes, there is always the
-                    thrill of just beginning.</p>
+                <h3>Então quem é consumidor e quem é o Shopper?</h3>
 
-                <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of
-                    tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far
-                    too little for the next ten.
-                </blockquote>
+                <p>Consumidor é a pessoa que usa, consome o bem-serviço adquirido, seja por ela ou por outra pessoa.</p>
 
-                <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a
-                    historical process which mankind is carrying out in accordance with the natural laws of human
-                    development.</p>
 
-                <h2 class="section-heading">Reaching for the Stars</h2>
+                <p>Shopper é a pessoa que irá comprar tal produto, quem escolhe onde comprar e se estabelece tal comportamento no ponto de venda, ou seja, é quem passa pelos estímulos no processo de interação com produtos e processos de vendas.</p>
 
-                <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size
-                    of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so
-                    fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing
-                    this has to change a man.</p>
+                <p>Observe que o papel do consumidor e do shopper podem não ser exercidos pela mesma pessoa. Um exemplo é quando o marido compra um esmalte para sua esposa, ele exerce o papel de shopper enquanto ela é a consumidora.
+</p>
 
-                <a href="#">
-                    <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-                </a>
-                <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                  <h3>Mas por que a diferença importa?</h3>
+				  
+				  <p>É importantíssimo principalmente para as empresas que trabalham com  trade marketing compreender essa diferença e conhecer muito bem seu público alvo, para a partir daí desenvolverem suas estratégias.
+</p>
 
-                <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission:
-                    to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man
-                    has gone before.</p>
+<p>Atualmente o cliente tem acesso à diversos canais de compras, fácil acesso à informação, o que o torna mais exigente. Isso faz com que o desafio das empresas cada seja vez maior, pois o cliente não busca mais apenas apenas adquirir algo, e sim o benefício que aquele produto-serviço irá proporcionar. </p>
 
-                <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental
-                    truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+<p> É preciso ter em mente que o cliente, indiferente de ser o consumidor final ou não, está em busca de algo que alcance ou supere suas expectativas e as empresas e seus colaboradores devem trabalhar sempre em prol deste fator. </p>
+				  
+				  
+			<div class="ebook_box"> 
+				<div class="row">
+					<div class="col-6">
+						<div class="bb_c1"> 
+						<p class="ebook_text2"> Baixe nosso ebook PLEASE: </p>
+						<p class="ebook_title"> “Ferramentas digitais para Trade Marketing” </p>
+						<p class="ebook_text"> Loren loren loren loren loren loren loren loren loren loren
+						loren loren loren loren loren loren loren loren loren loren loren loren loren loren </p>
+						</div>
+					</div>
+					
+					<div class="col-6">
+						<div class="bb_c2"> 
 
-                <p>Placeholder text by
-                    <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-                    <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+						
+						    <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+								<p class="ebook_text"> Receba nosso Ebook direto no seu e-mail </p>
+                <fieldset>
+					<label class="label2"> Nome completo: </label>
+                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required autofocus>
+                </fieldset>
+                <fieldset>
+				<label class="label2" > Email profissional: </label>
+                    <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="submit">Quero Receber</button>
+                </fieldset>
+                </p>
+							</form>
+						
+						
+						
+						
+						
+						
+						</div>
+					</div>
+			
+				</div>
+			</div>  
             </div>
+			
+			
+			
+	
+		<div class="col-md-4">
+            <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <h3 class="news_t1">Trade Marketing</h3>
+
+                <h3 class="news_t2">Newsletter</h3>
+                <fieldset>
+					<label> Nome completo: </label>
+                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required autofocus>
+                </fieldset>
+                <fieldset>
+				<label> Email profissional: </label>
+                    <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="submit">Quero Receber</button>
+                </fieldset>
+                </p>
+            </form>
         </div>
-    </div>
-</article>
+			</div>
+		
+	
+	</div>
+</article>.
+
+        
 </body>
+    <hr>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
 
 </html>
 

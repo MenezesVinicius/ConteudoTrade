@@ -172,16 +172,16 @@ if (isset($_POST['submit'])) {
                     <div class="col-md-9">
                         <?php
 
-                        if (strlen($entry) > 90) {
-                            $entry = substr($entry, 0, 400);
-                            $entry = "$entry... <br/><br/><a class='btn btn-success' href=\"src/single_post.php?id=" . $id .
-                                "\">Leia mais</a>";
-                        }
+                //**        if (strlen($entry) > 90) {   **//
+                //**            $entry = substr($entry, 0, 400);   **//
+                //**            $entry = "$entry... <br/><br/><a class='btn btn-success' href=\"src/single_post.php?id=" . $id .  **//
+                //**                "\">Leia mais</a>";  **//
+                //**        }  **//
 
                         ?>
 
-                        <?php printf("<h4><a href=\"src/single_post.php?id=%s\">$title</a></h4>", $id); ?>
-                        <?php echo "<p>$entry</p>"; ?>
+                        <?php printf("<h3><a href=\"src/single_post.php?id=%s\">$title</a></h3>", $id); ?>
+                        <?php echo "<h6>$entry</h6>"; ?>
                         <!--                        Postado em --><?php //echo $date; ?>
 
                         <hr/>
@@ -195,20 +195,24 @@ if (isset($_POST['submit'])) {
 
         <div class="col-md-4">
             <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                <h3 class="news_t1">Trade Marketing</h3>
-
-                <h3 class="news_t2">Newsletter</h3>
+                <p class="news_t1">Trade Marketing</p>
+                <p class="news_t2">Newsletter</p>
+				<p class="news_call">Toda semana conteúdo
+pra fazer sua vida um pouco
+mais fácil!</p>
                 <fieldset>
+					<label> Nome completo: </label>
                     <input placeholder="Nome" type="text" tabindex="1" name="nome" required autofocus>
                 </fieldset>
                 <fieldset>
                     <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required autofocus>
                 </fieldset>
                 <fieldset>
+				<label> Email profissional: </label>
                     <input placeholder="Email" type="email" tabindex="3" name="email" required>
                 </fieldset>
                 <fieldset>
-                    <button name="submit" type="submit" id="submit">Submit</button>
+                    <button name="submit" type="submit" id="submit">Quero Receber</button>
                 </fieldset>
                 </p>
             </form>
@@ -233,6 +237,36 @@ if (isset($_POST['submit'])) {
 
 
 </body>
+    <hr>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  
 </html>
 
 
