@@ -117,7 +117,7 @@ if (isset($_POST['submit'])) {
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <h1 class="section-heading">Aprenda a diferença entre Shopper e Consumidor </h1>
+                <h1 class="single-section-heading">Aprenda a diferença entre Shopper e Consumidor </h1>
 
                 <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
                 <hr>
