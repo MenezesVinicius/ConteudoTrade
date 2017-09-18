@@ -270,10 +270,6 @@ mais fácil!</p>
 </html>
 
 
-<?php
-
-echo "IP: ";
-echo $helper->get_ip_address(); ?>
 
 
 
