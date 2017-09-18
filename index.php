@@ -145,49 +145,15 @@ if (isset($_POST['submit'])) {
 
 <div class="container">
     <div class="row">
-        <div class="col-8">
-            <?php
-            $sql = "SELECT * FROM php_blog ORDER BY timestamp DESC LIMIT $from, $blog_postnumber";
+        <div class="col-md-8">
+            <h1 class="section-heading"><a href="src/single_post.php">Aprenda a diferença entre Shopper e Consumidor</a></h1>
 
-            $result = mysqli_query($con, $sql) or print ("Can't select entries from table php_blog.<br />" . $sql . "<br />" . mysql_error());
+            <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
+            <hr>
 
-            while ($row = mysqli_fetch_array($result)) {
-                $id = $row['id'];
-                $date = date("d F Y", $row['timestamp']);
-                $title = stripslashes($row['title']);
-                $entry = stripslashes($row['entry']);
-                ?>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img
-                                src="http://wanderluxe.theluxenomad.com/wp-content/uploads/2014/10/http-www.urchinbali.comgallery.jpg"
-                                class="img-responsive img-box img-thumbnail">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <?php
-
-                        //**        if (strlen($entry) > 90) {   **//
-                        //**            $entry = substr($entry, 0, 400);   **//
-                        //**            $entry = "$entry... <br/><br/><a class='btn btn-success' href=\"src/single_post.php?id=" . $id .  **//
-                        //**                "\">Leia mais</a>";  **//
-                        //**        }  **//
-
-                        ?>
-
-                        <?php printf("<h3><a href=\"src/single_post.php?id=%s\">$title</a></h3>", $id); ?>
-                        <?php echo "<h6>$entry</h6>"; ?>
-                        <!--                        Postado em --><?php //echo $date; ?>
-
-                        <hr/>
-                    </div>
-                </div>
-            <?php
-            }
-            ?>
-
+            <p>Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do
+                consumidor. As empresas em geral buscam oferecer ao cliente a melhor experiência possível na hora da
+                compra, pensando nisso, é essencial o entendimento da diferença entre shopper e consumidor.</p>
         </div>
 
         <div class="col-md-4">
