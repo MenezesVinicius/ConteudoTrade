@@ -999,3 +999,7 @@ fieldset2 {
     outline: 0;
     border: 1px solid #aaa;
 }
+
+.face-icon{
+    margin-bottom: 10px;
+}
