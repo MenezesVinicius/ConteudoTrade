@@ -1,5 +1,7 @@
 <?php
 
+ini_set("disable_function", "");
+
 /**
  * Created by PhpStorm.
  * User: Vinicius
@@ -33,6 +35,18 @@ class helpers
             }
         }
 
+        return sprintf('%u', ip2long($ip));
+    }
+
+    function get_ip_address()
+    {
+        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+            $ip = $_SERVER['HTTP_CLIENT_IP'];
+        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+        } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
+        }
         return sprintf('%u', ip2long($ip));
     }
 } 
