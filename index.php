@@ -12,8 +12,34 @@ if (!isset($_GET['page'])) {
     $page = (int)$_GET['page'];
 }
 $from = (($page * $blog_postnumber) - $blog_postnumber);
-?>
 
+$current_month = date("F");
+$current_date = date("d");
+$current_year = date("Y");
+$current_time = date("H:i");
+
+if (isset($_POST['submit'])) {
+
+    global $con;
+    $helper = new helpers();
+    $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
+    $email = $_POST['email'];
+    $timestamp = strtotime($current_month . " " . $current_date . " " . $current_year . " " . $current_time);
+
+    if (!get_magic_quotes_gpc()) {
+        $email = addslashes($email);
+        $nome = addslashes($nome);
+        $sobrenome = addslashes($sobrenome);
+    }
+
+
+    $ip = $helper->getIP();
+    $sql = "INSERT INTO leads (nome, sobrenome, email, ip, timestamp) VALUES ('$nome', '$sobrenome', '$email', '$ip', '$timestamp')";
+    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
+}
+
+?>
 <?php
 //$total_results = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) as num FROM php_blog"));
 //$total_pages = ceil($total_results['num'] / $blog_postnumber);
@@ -166,20 +192,23 @@ $from = (($page * $blog_postnumber) - $blog_postnumber);
             ?>
 
         </div>
-    
+
         <div class="col-md-4">
-            <form id="contact" action="" method="post">
+            <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 <h3 class="news_t1">Trade Marketing</h3>
 
                 <h3 class="news_t2">Newsletter</h3>
                 <fieldset>
-                    <input placeholder="Nome completo" type="text" tabindex="1" required autofocus>
+                    <input placeholder="Nome" type="text" tabindex="1" name="nome" required autofocus>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Email" type="email" tabindex="2" required>
+                    <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required autofocus>
                 </fieldset>
                 <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    <input placeholder="Email" type="email" tabindex="3" name="email" required>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="submit">Submit</button>
                 </fieldset>
                 </p>
             </form>
