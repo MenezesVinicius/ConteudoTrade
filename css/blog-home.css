@@ -61,6 +61,15 @@ button[type="submit"] {
     padding-top: 0;
 }
 
+.drop-form{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 0    ;
+}
+
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],

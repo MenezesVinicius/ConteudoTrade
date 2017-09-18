@@ -23,7 +23,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        ;
         gtag('js', new Date());
 
         gtag('config', 'UA-106570963-1');
@@ -114,7 +117,8 @@
     <!-- /.row -->
 
     <!-- Modal -->
-    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -181,9 +185,41 @@ if (isset($_POST['submit'])) {
         $nome = addslashes($nome);
     }
 
+    if (($email = filter_var($email, FILTER_VALIDATE_EMAIL)) !== false) {
+        if (stristr($email, '@gmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@hotmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@yahoo.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@bol.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@live.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@msn.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@ig.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@oi.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@zipmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@uol.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@terra.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@r7.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@globomail.com') !== false) {
+            $tipo = "B2C";
+        } else {
+            $tipo = "B2B";
+        }
+    }
+
     $ip = $helper->getIP();
 
-    $sql = "INSERT IGNORE INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
+    $sql = "INSERT IGNORE INTO leads (nome, email, ip, timestamp, tipo) VALUES ('$nome', '$email', '$ip', '$timestamp', '$tipo')";
     $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
     echo "<script>
              $('#thankyouModal').modal('show');

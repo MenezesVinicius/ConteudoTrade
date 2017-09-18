@@ -22,7 +22,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        ;
         gtag('js', new Date());
 
         gtag('config', 'UA-106570963-1');
@@ -106,10 +109,12 @@
                 </div>
 
                 <div class="card-body card-form">
-                    <form id="contact"  method="post" onsubmit="return validate()" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <form id="contact" method="post" onsubmit="return validate()"
+                          action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <fieldset>
                             <label> Nome completo: </label>
-                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form" required>
+                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
+                                   required>
                         </fieldset>
                         <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
                             Nome inválido!
@@ -130,7 +135,8 @@
     </div>
     <!-- /.row -->
     <!-- Modal -->
-    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -195,6 +201,38 @@ if (isset($_POST['submit'])) {
     if (!get_magic_quotes_gpc()) {
         $email = addslashes($email);
         $nome = addslashes($nome);
+    }
+
+    if (($email = filter_var($email, FILTER_VALIDATE_EMAIL)) !== false) {
+        if (stristr($email, '@gmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@hotmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@yahoo.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@bol.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@live.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@msn.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@ig.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@oi.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@zipmail.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@uol.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@terra.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@r7.com') !== false) {
+            $tipo = "B2C";
+        } else if (stristr($email, '@globomail.com') !== false) {
+            $tipo = "B2C";
+        } else {
+            $tipo = "B2B";
+        }
     }
 
     $ip = $helper->getIP();
