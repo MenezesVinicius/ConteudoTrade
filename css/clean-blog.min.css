@@ -171,11 +171,16 @@ blockquote {
 
 
 .section-heading {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 700;
     /*margin-top: 60px*/
 }
 
+.single-section-heading {
+    font-size: 42px;
+    font-weight: 700;
+    /*margin-top: 60px*/
+}
 
 .caption {
     font-size: 14px;
