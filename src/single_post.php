@@ -120,6 +120,7 @@ if (isset($_POST['submit'])) {
                 <h1 class="single-section-heading">Aprenda a diferença entre Shopper e Consumidor </h1>
 
                 <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
+				<br>
                 <hr>
 
                 <p>Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do
@@ -156,7 +157,7 @@ if (isset($_POST['submit'])) {
                     sempre em prol deste fator. </p>
 
 
-                <div class="ebook_box">
+         <!--       <div class="ebook_box">
                     <div class="row">
                         <div class="col-6">
                             <div class="bb_c1">
@@ -196,32 +197,35 @@ if (isset($_POST['submit'])) {
                         </div>
 
                     </div>
-                </div>
-            </div>
+                </div> -->
+            
+			</div>
 
 
             <div class="col-md-4">
-                <form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                    <h3 class="news_t1">Trade Marketing</h3>
+				<form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+					<p class="news_t1">Trade Marketing</p>
 
-                    <h3 class="news_t2">Newsletter</h3>
-                    <fieldset>
-                        <label> Nome completo: </label>
-                        <input placeholder="Nome" type="text" tabindex="1" name="nome" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required>
-                    </fieldset>
-                    <fieldset>
-                        <label> Email profissional: </label>
-                        <input placeholder="Email" type="email" tabindex="3" name="email" required>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="submit">Quero Receber</button>
-                    </fieldset>
-                    </p>
-                </form>
-            </div>
+					<p class="news_t2">Newsletter</p>
+
+					<p class="news_call">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
+					<fieldset>
+						<label> Nome completo: </label>
+						<input placeholder="Nome" type="text" tabindex="1" name="nome" required>
+					</fieldset>
+					<fieldset>
+						<input placeholder="Sobrenome" type="text" tabindex="2" name="sobrenome" required>
+					</fieldset>
+					<fieldset>
+						<label> Email profissional: </label>
+						<input placeholder="seumelhor@email.com.br" type="email" tabindex="3" name="email" required>
+					</fieldset>
+					<fieldset>
+                    <button name="submit" type="submit" id="submit">Quero Receber</button>
+					</fieldset>
+					</p>
+				</form>
+			</div>
         </div>
 
 

@@ -167,9 +167,7 @@ if (isset($_POST['submit'])) {
 
                 <p class="news_t2">Newsletter</p>
 
-                <p class="news_call">Toda semana conteúdo
-                    pra fazer sua vida um pouco
-                    mais fácil!</p>
+                <p class="news_call">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
                 <fieldset>
                     <label> Nome completo: </label>
                     <input placeholder="Nome" type="text" tabindex="1" name="nome" required>
