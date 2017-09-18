@@ -9,8 +9,20 @@
     z-index: 0;
 }
 
+.cover-small{
+    margin: 20px;
+}
+
 .nav-custom{
     background-color:rgba(0, 0, 0, 0.7);
+}
+
+.main-area{
+    background-color: #4990e2;
+}
+
+.in_pad{
+    padding: 35px;
 }
 
 button[type="submit"] {
@@ -68,6 +80,10 @@ button[type="submit"] {
     padding: 10px;
     font-size: 15px;
     border-radius: 0    ;
+}
+
+.custom-border{
+    border-radius: 0;
 }
 
 #contact input[type="text"],
@@ -170,7 +186,7 @@ fieldset {
 
 
 footer {
-    padding: 50px 0 65px
+    padding: 30px;
 }
 
 footer .list-inline {
