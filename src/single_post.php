@@ -1,37 +1,37 @@
 <?php
-
-include('db.php');
-include('helpers.php');
-
-global $con;
-
-$current_month = date("F");
-$current_date = date("d");
-$current_year = date("Y");
-$current_time = date("H:i");
-
-if (isset($_POST['submit'])) {
-
-    global $con;
-    $helper = new helpers();
-    $nome = $_POST['nome'];
-    $sobrenome = $_POST['sobrenome'];
-    $email = $_POST['email'];
-    $timestamp = strtotime($current_month . " " . $current_date . " " . $current_year . " " . $current_time);
-
-    if (!get_magic_quotes_gpc()) {
-        $email = addslashes($email);
-        $nome = addslashes($nome);
-        $sobrenome = addslashes($sobrenome);
-    }
-
-
-    $ip = $helper->getIP();
-    $sql = "INSERT INTO leads (nome, sobrenome, email, ip, timestamp) VALUES ('$nome', '$sobrenome', '$email', '$ip', '$timestamp')";
-    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
-}
-
-?>
+//
+//include('db.php');
+//include('helpers.php');
+//
+//global $con;
+//
+//$current_month = date("F");
+//$current_date = date("d");
+//$current_year = date("Y");
+//$current_time = date("H:i");
+//
+//if (isset($_POST['submit'])) {
+//
+//    global $con;
+//    $helper = new helpers();
+//    $nome = $_POST['nome'];
+//    $sobrenome = $_POST['sobrenome'];
+//    $email = $_POST['email'];
+//    $timestamp = strtotime($current_month . " " . $current_date . " " . $current_year . " " . $current_time);
+//
+//    if (!get_magic_quotes_gpc()) {
+//        $email = addslashes($email);
+//        $nome = addslashes($nome);
+//        $sobrenome = addslashes($sobrenome);
+//    }
+//
+//
+//    $ip = $helper->getIP();
+//    $sql = "INSERT INTO leads (nome, sobrenome, email, ip, timestamp) VALUES ('$nome', '$sobrenome', '$email', '$ip', '$timestamp')";
+//    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
+//}
+//
+//?>
 
 <html lang="en">
 
