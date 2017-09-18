@@ -1,33 +1,3 @@
-<?php
-include('src/db.php');
-include('src/helpers.php');
-
-global $con;
-$helper = new helpers();
-date_default_timezone_set('America/Sao_Paulo');
-$dataLocal = date('Y/m/d H:i:s', time());
-
-if (isset($_POST['submit'])) {
-
-    global $con;
-    $helper = new helpers();
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $timestamp = strtotime($dataLocal);
-
-    if (!get_magic_quotes_gpc()) {
-        $email = addslashes($email);
-        $nome = addslashes($nome);
-    }
-
-    $ip = $helper->getIP();
-
-    $sql = "INSERT INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
-    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,6 +15,7 @@ if (isset($_POST['submit'])) {
 
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <script src="vendor/jquery/jquery.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/blog-home.css" rel="stylesheet">
     <script src="js/helpers.js"></script>
@@ -107,12 +78,17 @@ if (isset($_POST['submit'])) {
                         nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
 
                 </div>
-                <div class="card-body ">
-                    <form id="contact"  method="post" onsubmit="return validate()" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <div class="card-body card-form">
+                    <form id="contact" method="post" onsubmit="return validate()"
+                          action="<?php echo $_SERVER['PHP_SELF']; ?>">
                         <fieldset>
                             <label> Nome completo: </label>
-                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form" required>
+                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
+                                   required>
                         </fieldset>
+                        <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
+                            Nome inválido!
+                        </div>
                         <fieldset>
                             <label> Email profissional: </label>
                             <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
@@ -130,6 +106,25 @@ if (isset($_POST['submit'])) {
     </div>
     <!-- /.row -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Obrigado!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Registro efetuado com sucesso! Agora só aproveitar o nosso conteúdo.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- /.container -->
 
@@ -156,3 +151,36 @@ if (isset($_POST['submit'])) {
 </body>
 
 </html>
+
+<?php
+include('src/db.php');
+include('src/helpers.php');
+
+global $con;
+$helper = new helpers();
+date_default_timezone_set('America/Sao_Paulo');
+$dataLocal = date('Y/m/d H:i:s', time());
+
+if (isset($_POST['submit'])) {
+
+    global $con;
+    $helper = new helpers();
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $timestamp = strtotime($dataLocal);
+
+    if (!get_magic_quotes_gpc()) {
+        $email = addslashes($email);
+        $nome = addslashes($nome);
+    }
+
+    $ip = $helper->getIP();
+
+    $sql = "INSERT INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
+    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
+    echo "<script>
+             $('#thankyouModal').modal('show');
+          </script>";
+}
+
+?>

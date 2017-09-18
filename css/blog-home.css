@@ -22,6 +22,7 @@ button[type="submit"] {
 
 .newsletter{
     background-color: transparent;
+    border: 0;
 }
 
 .post-image{
@@ -49,6 +50,15 @@ button[type="submit"] {
     font-style: italic;
     text-align: center;
     color: #ffab00;
+    margin-bottom: 12px;
+}
+
+.news_call{
+    margin-bottom: 0;
+}
+
+.card-form{
+    padding-top: 0;
 }
 
 #contact input[type="text"],
