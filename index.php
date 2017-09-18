@@ -58,7 +58,6 @@
                 </div>
                 <div class="card-footer text-muted">
                     Postado 17 de Setembro, 2017
-
                 </div>
             </div>
         </div>
@@ -184,7 +183,7 @@ if (isset($_POST['submit'])) {
 
     $ip = $helper->getIP();
 
-    $sql = "INSERT INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
+    $sql = "INSERT IGNORE INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
     $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
     echo "<script>
              $('#thankyouModal').modal('show');
