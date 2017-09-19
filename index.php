@@ -55,7 +55,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-8">
 						<div class="media-body">
 							<div class="card-body">
-								<a href="pages/second_post.php"><h2 align="justify" class="card-title">A influência do trade marketing no e-commerce.</h2></a>
+								<a href="pages/third_post.php"><h2 align="justify" class="card-title">A influência do trade marketing no e-commerce.</h2></a>
 
 								<p align="justify" class="card-text">O trade marketing é uma nova estratégia para fidelizar os clientes e desvincular a ideia de que o preço é o fator mais importante para um e-commerce.</p>
 							</div>
