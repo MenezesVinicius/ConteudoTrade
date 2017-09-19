@@ -1,5 +1,6 @@
 function validate() {
-    var regexp = /^[A-Za-z-áéíóúâêôûãõ]+\s[A-Za-z-áéíóúâêôûãõ]+$/i;
+    var regexp = /^[A-Za-z-áéíóúâêôûãõ]+\s[A-Za-z-áéíóúâêôûãõ ]+$/i;
+
 
     var name = document.getElementById("nome_form").value;
 

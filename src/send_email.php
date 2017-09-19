@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
     $mail->IsSMTP(); // Define que a mensagem será SMTP
 
     try {
-        $mail->Host = 'smtp.conteudotrade.com'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
+        $mail->Host = 'smtp.umbler.com'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
         $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
         $mail->Port = 587; //  Usar 587 porta SMTP
         $mail->Username = 'anderson@conteudotrade.com'; // Usuário do servidor SMTP (endereço de email)
