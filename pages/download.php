@@ -30,13 +30,10 @@ if(!empty($_GET['key'])){
                     header("Content-type: application/force-download");
                     header("Content-Disposition: attachment; filename=\"".str_replace(" ", "_", $arrCheck['file'])."\"");
 
-                    //echo the file to the user
-                    echo $strFile;
-
                     //update the DB to say this file has been downloaded
-                    mysqli_query($con, "UPDATE downloads SET downloads = downloads + 1 WHERE downloadkey = '".mysql_real_escape_string($_GET['key'])."' LIMIT 1");
+                    mysqli_query($con, "UPDATE downloads SET downloads = downloads + 1 WHERE downloadkey = '".mysqli_real_escape_string($con, $_GET['key'])."' LIMIT 1");
 
-                    exit;
+                    //exit;
 
                 }else{
                     echo "We couldn't find the file to download.";

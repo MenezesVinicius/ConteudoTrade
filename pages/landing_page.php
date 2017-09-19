@@ -197,22 +197,65 @@ if (isset($_POST['submit'])) {
     //insert the download record into the database
     $result = mysqli_query($con, $sql) or print("Can't insert .<br />" . $sql . "<br />" . mysql_error());
 
-    $to = $email;
-    $subject = "Faça o Download do seu E-book agora mesmo!";
+//    $to = $email;
+//    $subject = "Faça o Download do seu E-book agora mesmo!";
+//
+//    $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
+//
+//    $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
+//
+//    // Always set content-type when sending HTML email
+//    $headers = "MIME-Version: 1.0" . "\r\n";
+//    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+//
+//    // More headers
+//    $headers .= 'From: Conteúdo Trade <anderson@conteudotrade.com>' . "\r\n";
+//
+//    mail($to, $subject, $message, $headers);
 
-    $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
+    // Inclui o arquivo class.phpmailer.php localizado na pasta class
+    require_once("../src/class/class.phpmailer.php");
 
-    $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
+    // Inicia a classe PHPMailer
+    $mail = new PHPMailer(true);
+    // Define os dados do servidor e tipo de conexão
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    $mail->IsSMTP(); // Define que a mensagem será SMTP
 
-    // Always set content-type when sending HTML email
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    try {
+        $mail->Host = 'smtp.umbler.com'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
+        $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
+        $mail->Port = 587; //  Usar 587 porta SMTP
+        $mail->Username = 'anderson@conteudotrade.com'; // Usuário do servidor SMTP (endereço de email)
+        $mail->Password = 'gamagama'; // Senha do servidor SMTP (senha do email usado)
 
-    // More headers
-    $headers .= 'From: Conteúdo Trade <anderson@conteudotrade.com>' . "\r\n";
+        //Define o remetente
+        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        $mail->SetFrom('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->AddReplyTo('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->Subject = 'Faça o Download do seu E-book agora mesmo!'; //Assunto do e-mail
+        $mail->CharSet = 'UTF-8';
 
-    mail($to, $subject, $message, $headers);
+        //Define os destinatário(s)
+        //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        $mail->AddAddress($email, '');
 
+        $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
+
+        $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
+
+        //Define o corpo do email
+        $mail->MsgHTML($message);
+
+        ////Caso queira colocar o conteudo de um arquivo utilize o método abaixo ao invés da mensagem no corpo do e-mail.
+        //$mail->MsgHTML(file_get_contents('arquivo.html'));
+
+        $mail->Send();
+        //caso apresente algum erro é apresentado abaixo com essa exceção.
+    } catch (phpmailerException $e) {
+        echo "error email";
+        echo $e->errorMessage(); //Mensagem de erro costumizada do PHPMailer
+    }
 
     echo "<script>
              $('#thankyouModal').modal('show');
