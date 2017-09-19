@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="card-footer text-muted">
-                    Postado 18 de Setembro, 2017
+                    Postado 19 de Setembro, 2017
                 </div>
             </div>
 		
