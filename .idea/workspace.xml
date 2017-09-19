@@ -23,33 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="69" selection-start="3255" selection-end="3290" vertical-scroll-proportion="-9.423077" vertical-offset="1404" max-vertical-offset="4080">
+              <folding>
+                <marker date="1505786123644" expanded="true" signature="8062:8130" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="57" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-7.6153846" vertical-offset="992" max-vertical-offset="3553">
+            <state line="214" column="0" selection-start="8322" selection-end="8322" vertical-scroll-proportion="0.6433566" vertical-offset="3270" max-vertical-offset="3842">
               <folding>
-                <element signature="e#5311#5338#0" expanded="true" />
-                <marker date="1505792867098" expanded="true" signature="7485:7557" placeholder="..." />
+                <marker date="1505795186799" expanded="true" signature="8341:8409" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_email.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/send_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="5119" selection-end="5119" vertical-scroll-proportion="-19.884615" vertical-offset="1608" max-vertical-offset="2380">
-              <folding>
-                <marker date="1505794663971" expanded="true" signature="5138:5206" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="download.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="download.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/download.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.77272725" vertical-offset="0" max-vertical-offset="1122">
+            <state line="26" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -81,10 +80,10 @@
         <option value="$PROJECT_DIR$/pages/first_post.php" />
         <option value="$PROJECT_DIR$/css/blog-home.css" />
         <option value="$PROJECT_DIR$/src/helpers.php" />
-        <option value="$PROJECT_DIR$/pages/landing_page.php" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
-        <option value="$PROJECT_DIR$/src/send_email.php" />
         <option value="$PROJECT_DIR$/pages/download.php" />
+        <option value="$PROJECT_DIR$/src/send_email.php" />
+        <option value="$PROJECT_DIR$/pages/landing_page.php" />
       </list>
     </option>
   </component>
@@ -299,7 +298,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="0" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2788">
           <folding>
-            <marker date="1505786123644" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1505786123644" expanded="true" signature="8062:8130" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -308,7 +307,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="26" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="4182">
           <folding>
-            <marker date="1505786123644" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1505786123644" expanded="true" signature="8062:8130" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -390,25 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="6" selection-start="5263" selection-end="5263" vertical-scroll-proportion="-1.8188034" vertical-offset="3495" max-vertical-offset="4080">
-          <folding>
-            <marker date="1505786123644" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="57" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-7.6153846" vertical-offset="992" max-vertical-offset="3553">
-          <folding>
-            <element signature="e#5311#5338#0" expanded="true" />
-            <marker date="1505792867098" expanded="true" signature="7485:7557" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="22" selection-start="118" selection-end="118" vertical-scroll-proportion="0.11623932" vertical-offset="0" max-vertical-offset="585">
@@ -416,19 +396,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="5119" selection-end="5119" vertical-scroll-proportion="-19.884615" vertical-offset="1608" max-vertical-offset="2380">
+        <state line="85" column="0" selection-start="0" selection-end="3090" vertical-scroll-proportion="0.73846155" vertical-offset="1013" max-vertical-offset="1598">
           <folding>
-            <marker date="1505794663971" expanded="true" signature="5138:5206" placeholder="..." />
+            <marker date="1505795091681" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/download.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.77272725" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
+        <state line="97" column="69" selection-start="3255" selection-end="3290" vertical-scroll-proportion="-9.423077" vertical-offset="1404" max-vertical-offset="4080">
+          <folding>
+            <marker date="1505786123644" expanded="true" signature="8062:8130" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="0" selection-start="8322" selection-end="8322" vertical-scroll-proportion="0.6433566" vertical-offset="3270" max-vertical-offset="3842">
+          <folding>
+            <marker date="1505795186799" expanded="true" signature="8341:8409" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
