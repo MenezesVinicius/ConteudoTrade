@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 
@@ -47,7 +47,7 @@
         <div class="col-md-8">
             <!-- Title -->
             <h1 class="mt-4">Aprenda a diferença entre Shopper e Consumidor</h1>
-            <h6>Por que a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
+            <h6>Porque a diferença é tão importante para as técnicas de varejo da atualidade!</h6>
 
             <hr>
             <!-- Date/Time -->
@@ -56,7 +56,7 @@
             <hr>
 
             <!-- Post Content -->
-            <p>Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do
+            <p align="justify">Muito se fala, na hora de vender o produto, sobre a importância de se colocar sob o ponto de vista do
                 consumidor. As empresas em geral buscam oferecer ao cliente a melhor experiência possível na hora da
                 compra, pensando nisso, é essencial o entendimento da diferença entre shopper e consumidor.</p>
 
