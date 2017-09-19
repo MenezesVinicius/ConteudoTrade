@@ -52,7 +52,8 @@
                                 <br>
                                 É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o
                                 ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que
-                                vão facilitar sua vida e aumentar suas vendas, receba este exclusivo material no seu e-mail!
+                                vão facilitar sua vida e aumentar suas vendas, receba este exclusivo material no seu
+                                e-mail!
                             </p>
                         </div>
                     </div>
@@ -238,9 +239,9 @@ if (isset($_POST['submit'])) {
 
         //Define o remetente
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-        $mail->setFrom('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->setFrom('anderson@conteudotrade.com', 'Anderson da Conteúdo Trade'); //Seu e-mail
         $mail->AddReplyTo('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
-        $mail->Subject = 'Faça o Download do seu E-book agora mesmo!'; //Assunto do e-mail
+        $mail->Subject = 'Seu ebook "10 Ferramentas de automação e gestão de vendas"'; //Assunto do e-mail
         $mail->CharSet = 'UTF-8';
 
         //Define os destinatário(s)
@@ -249,7 +250,12 @@ if (isset($_POST['submit'])) {
 
         $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
 
-        $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
+        $message = 'Oi ' . $nome . ', tudo bem?'
+            . '<br><br>Estamos te enviando esse email pois você se registrou lá no Conteúdo Trade para receber o ebook "10 Ferramentas de automação e gestão de vendas".<br><br>
+                    Clique no seguinte link para realizar o download do nosso ebook: ' . $link . '<br>
+                    Ou copie e cole no seu navegador: http://conteudotrade.com/pages/download.php?key=' . $strKey . '<br>
+                    Esse link é exlusivo para você utilizar uma vez. <br><br> Qualquer dúvida ou problema, pode responder através desse email.<br><br>
+                    Anderson <br> Conteúdo Trade';
 
         //Define o corpo do email
         $mail->MsgHTML($message);
