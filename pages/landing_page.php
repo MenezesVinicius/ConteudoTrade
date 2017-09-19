@@ -37,11 +37,11 @@
             <div class="bg-white">
                 <div class="in_pad">
                     <p class="h3_01">
-Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão"</p>
+Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão de vendas"</p>
 
                     <div class="row">
                         <div class="col-md-5 embed-responsive">
-                            <img class="img-responsive" width="350" height="250" src="../img/post_1.jpg"/>
+                            <img class="img-fluid" src="../img/ebook1.jpg"/>
                         </div>
 
                         <div class="col-md-7">
@@ -49,7 +49,7 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
                              O mercado se atualiza todos os dias.<br> Você deve se atualizar tambem!
 							 <br>
 							 <br>
-							É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!
+							É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!
                             </p>
 
 
