@@ -21,4 +21,11 @@ class helpers
         }
         return sprintf('%u', ip2long($ip));
     }
+
+    function createKey()
+    {
+        //create a random key
+        $strKey = md5(microtime());
+        return $strKey;
+    }
 } 
