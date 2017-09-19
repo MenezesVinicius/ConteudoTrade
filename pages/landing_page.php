@@ -136,6 +136,10 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
 <?php
 include('../src/db.php');
 include('../src/helpers.php');
+use PHPMailer\PHPMailer\PHPMailer;
+
+require '../src/class/PHPMailer.php';
+require '../src/class/SMTP.php';
 
 global $con;
 $helper = new helpers();
@@ -197,25 +201,6 @@ if (isset($_POST['submit'])) {
     //insert the download record into the database
     $result = mysqli_query($con, $sql) or print("Can't insert .<br />" . $sql . "<br />" . mysql_error());
 
-//    $to = $email;
-//    $subject = "Faça o Download do seu E-book agora mesmo!";
-//
-//    $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
-//
-//    $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
-//
-//    // Always set content-type when sending HTML email
-//    $headers = "MIME-Version: 1.0" . "\r\n";
-//    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-//
-//    // More headers
-//    $headers .= 'From: Conteúdo Trade <anderson@conteudotrade.com>' . "\r\n";
-//
-//    mail($to, $subject, $message, $headers);
-
-    // Inclui o arquivo class.phpmailer.php localizado na pasta class
-    require_once("../src/class/class.phpmailer.php");
-
     // Inicia a classe PHPMailer
     $mail = new PHPMailer(true);
     // Define os dados do servidor e tipo de conexão
@@ -231,7 +216,7 @@ if (isset($_POST['submit'])) {
 
         //Define o remetente
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-        $mail->SetFrom('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->setFrom('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
         $mail->AddReplyTo('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
         $mail->Subject = 'Faça o Download do seu E-book agora mesmo!'; //Assunto do e-mail
         $mail->CharSet = 'UTF-8';
