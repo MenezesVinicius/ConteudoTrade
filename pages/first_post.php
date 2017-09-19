@@ -62,30 +62,23 @@
 
             <h3>Então quem é consumidor e quem é o Shopper?</h3>
 
-            <p>Consumidor é a pessoa que usa, consome o bem-serviço adquirido, seja por ela ou por outra pessoa.</p>
-
-
-            <p>Shopper é a pessoa que irá comprar tal produto, quem escolhe onde comprar e se estabelece tal
+            <p align="justify">Consumidor é a pessoa que usa, consome o bem-serviço adquirido, seja por ela ou por outra pessoa.</p>
+            <palign="justify">Shopper é a pessoa que irá comprar tal produto, quem escolhe onde comprar e se estabelece tal
                 comportamento no ponto de venda, ou seja, é quem passa pelos estímulos no processo de interação com
                 produtos e processos de vendas.</p>
-
-            <p>Observe que o papel do consumidor e do shopper podem não ser exercidos pela mesma pessoa. Um exemplo
+            <p align="justify">Observe que o papel do consumidor e do shopper podem não ser exercidos pela mesma pessoa. Um exemplo
                 é quando o marido compra um esmalte para sua esposa, ele exerce o papel de shopper enquanto ela é a
-                consumidora.
-            </p>
+                consumidora.</p>
 
             <h3>Mas por que a diferença importa?</h3>
 
-            <p>É importantíssimo principalmente para as empresas que trabalham com trade marketing compreender essa
-                diferença e conhecer muito bem seu público alvo, para a partir daí desenvolverem suas estratégias.
-            </p>
-
-            <p>Atualmente o cliente tem acesso à diversos canais de compras, fácil acesso à informação, o que o
+            <p align="justify">É importantíssimo principalmente para as empresas que trabalham com trade marketing compreender essa
+                diferença e conhecer muito bem seu público alvo, para a partir daí desenvolverem suas estratégias.</p>
+            <p align="justify">Atualmente o cliente tem acesso à diversos canais de compras, fácil acesso à informação, o que o
                 torna mais exigente. Isso faz com que o desafio das empresas cada seja vez maior, pois o cliente não
                 busca mais apenas apenas adquirir algo, e sim o benefício que aquele produto-serviço irá
                 proporcionar. </p>
-
-            <p> É preciso ter em mente que o cliente, indiferente de ser o consumidor final ou não, está em busca de
+            <p align="justify"> É preciso ter em mente que o cliente, indiferente de ser o consumidor final ou não, está em busca de
                 algo que alcance ou supere suas expectativas e as empresas e seus colaboradores devem trabalhar
                 sempre em prol deste fator. </p>
 
@@ -98,7 +91,7 @@
                             <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
                             <img class="img-fluid" src="../img/ebook2.jpg"/>
 
-                            <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades,
+                            <p align="justify" class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades,
                                 por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que
                                 trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no
                                 seu e-mail!</p>
@@ -150,7 +143,7 @@
 
                     <p class="news_t2">Newsletter</p>
 
-                    <p class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                    <p align="justify" class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
                         nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
 
                 </div>
