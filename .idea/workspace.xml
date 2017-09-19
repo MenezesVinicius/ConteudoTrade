@@ -37,7 +37,7 @@
       <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="10" selection-start="4862" selection-end="5777" vertical-scroll-proportion="-17.923077" vertical-offset="1778" max-vertical-offset="4709">
+            <state line="112" column="10" selection-start="3913" selection-end="4856" vertical-scroll-proportion="-16.615385" vertical-offset="1472" max-vertical-offset="4709">
               <folding>
                 <element signature="e#3294#3315#0" expanded="true" />
                 <marker date="1505798545815" expanded="true" signature="10779:10850" placeholder="..." />
@@ -50,12 +50,12 @@
       <file leaf-file-name="first_post.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/first_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="4" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.94188035" vertical-offset="3240" max-vertical-offset="6307">
+            <state line="203" column="4" selection-start="9000" selection-end="9000" vertical-scroll-proportion="0.62222224" vertical-offset="3087" max-vertical-offset="6307">
               <folding>
                 <element signature="e#5450#5471#0" expanded="true" />
                 <element signature="e#7413#7434#0" expanded="true" />
-                <marker date="1505798703355" expanded="true" signature="15022:15093" placeholder="..." />
-                <marker date="1505798703355" expanded="true" signature="15121:15189" placeholder="..." />
+                <marker date="1505798808845" expanded="true" signature="15023:15094" placeholder="..." />
+                <marker date="1505798808845" expanded="true" signature="15122:15190" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -406,7 +406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="10" selection-start="4862" selection-end="5777" vertical-scroll-proportion="-17.923077" vertical-offset="1778" max-vertical-offset="4709">
+        <state line="112" column="10" selection-start="3913" selection-end="4856" vertical-scroll-proportion="-16.615385" vertical-offset="1472" max-vertical-offset="4709">
           <folding>
             <element signature="e#3294#3315#0" expanded="true" />
             <marker date="1505798545815" expanded="true" signature="10779:10850" placeholder="..." />
@@ -417,12 +417,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/first_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="4" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.94188035" vertical-offset="3240" max-vertical-offset="6307">
+        <state line="203" column="4" selection-start="9000" selection-end="9000" vertical-scroll-proportion="0.62222224" vertical-offset="3087" max-vertical-offset="6307">
           <folding>
             <element signature="e#5450#5471#0" expanded="true" />
             <element signature="e#7413#7434#0" expanded="true" />
-            <marker date="1505798703355" expanded="true" signature="15022:15093" placeholder="..." />
-            <marker date="1505798703355" expanded="true" signature="15121:15189" placeholder="..." />
+            <marker date="1505798808845" expanded="true" signature="15023:15094" placeholder="..." />
+            <marker date="1505798808845" expanded="true" signature="15122:15190" placeholder="..." />
           </folding>
         </state>
       </provider>
