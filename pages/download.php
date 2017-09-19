@@ -1,7 +1,7 @@
 <?php
 
 //The directory where the download files are kept - keep outside of the web document root
-$strDownloadFolder = "/downloads/";
+$strDownloadFolder = "downloads/";
 
 //If you can download a file more than once
 $boolAllowMultipleDownload = 0;
@@ -20,7 +20,7 @@ if(!empty($_GET['key'])){
             if(!$arrCheck['downloads'] OR $boolAllowMultipleDownload){
                 //everything is hunky dory - check the file exists and then let the user download it
                 $strDownload = $strDownloadFolder.$arrCheck['file'];
-
+                echo $strDownload;
                 if(file_exists($strDownload)){
 
                     //get the file content
