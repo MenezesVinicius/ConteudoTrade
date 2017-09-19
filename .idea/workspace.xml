@@ -34,13 +34,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="0" selection-start="7811" selection-end="7811" vertical-scroll-proportion="-0.3374126" vertical-offset="3627" max-vertical-offset="4318">
+            <state line="244" column="18" selection-start="9765" selection-end="9765" vertical-scroll-proportion="-20.038462" vertical-offset="3627" max-vertical-offset="4318">
               <folding>
                 <marker date="1505796964527" expanded="true" signature="9764:9832" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/download.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.24300699" vertical-offset="303" max-vertical-offset="1241">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/helpers.php" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/src/send_email.php" />
-        <option value="$PROJECT_DIR$/pages/download.php" />
         <option value="$PROJECT_DIR$/pages/landing_page.php" />
+        <option value="$PROJECT_DIR$/pages/download.php" />
       </list>
     </option>
   </component>
@@ -173,6 +182,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConteudoTrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="downloads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,19 +426,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/download.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1601" selection-end="1601" vertical-scroll-proportion="1.0699301" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="0" selection-start="7811" selection-end="7811" vertical-scroll-proportion="-0.3374126" vertical-offset="3627" max-vertical-offset="4318">
+        <state line="244" column="18" selection-start="9765" selection-end="9765" vertical-scroll-proportion="-20.038462" vertical-offset="3627" max-vertical-offset="4318">
           <folding>
             <marker date="1505796964527" expanded="true" signature="9764:9832" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.24300699" vertical-offset="303" max-vertical-offset="1241">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -23,17 +23,27 @@ if(!empty($_GET['key'])){
                 echo $strDownload;
                 if(file_exists($strDownload)){
 
-                    //get the file content
-                    $strFile = file_get_contents($strDownload);
+                    header("Content-Type: application/octet-stream");
 
-                    //set the headers to force a download
-                    header("Content-type: application/force-download");
-                    header("Content-Disposition: attachment; filename=\"".str_replace(" ", "_", $arrCheck['file'])."\"");
+                    $file = $strDownload;
+                    header("Content-Disposition: attachment; filename=" . urlencode($file));
+                    header("Content-Type: application/octet-stream");
+                    header("Content-Type: application/download");
+                    header("Content-Description: File Transfer");
+                    header("Content-Length: " . filesize($file));
+                    flush(); // this doesn't really matter.
+                    $fp = fopen($file, "r");
+                    while (!feof($fp))
+                    {
+                        echo fread($fp, 65536);
+                        flush(); // this is essential for large downloads
+                    }
+                    fclose($fp);
 
                     //update the DB to say this file has been downloaded
                     mysqli_query($con, "UPDATE downloads SET downloads = downloads + 1 WHERE downloadkey = '".mysqli_real_escape_string($con, $_GET['key'])."' LIMIT 1");
 
-                    //exit;
+                    exit;
 
                 }else{
                     echo "We couldn't find the file to download.";
