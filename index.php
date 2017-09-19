@@ -55,9 +55,9 @@
 						<div class="col-xs-12 col-sm-12 col-md-8">
 						<div class="media-body">
 							<div class="card-body">
-								<a href="pages/second_post.php"><h2 class="card-title">A tecnologia muda seu cliente, você está mudando junto com ele?</h2></a>
+								<a href="pages/second_post.php"><h2 align="justify" class="card-title">A tecnologia muda seu cliente, você está mudando junto com ele?</h2></a>
 
-								<p class="card-text">Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</p>
+								<p align="justify" class="card-text">Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</p>
 							</div>
 						</div>
 						</div>
@@ -79,10 +79,10 @@
 						<div class="col-xs-12 col-sm-12 col-md-8">
 						<div class="media-body">
 							<div class="card-body">
-								<a href="pages/first_post.php"><h2 class="card-title">Aprenda a diferença entre Shopper e
+								<a href="pages/first_post.php"><h2 align="justify" class="card-title">Aprenda a diferença entre Shopper e
 										Consumidor</h2></a>
 
-								<p class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
+								<p align="justify" class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
 									atualidade!</p>
 							</div>
 						</div>
@@ -117,7 +117,7 @@
 
                     <p class="news_t2">Newsletter</p>
 
-                    <p class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                    <p align="justify" class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
                         nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
 
                 </div>
