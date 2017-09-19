@@ -49,7 +49,7 @@
                 <div class="media">
 					<div class="row">
 						<div class="col-xs-12 col-sm-11 col-md-4">
-						<img class="d-flex img-fluid  post-image" src="img/post_2.jpg" alt="Generic placeholder image">
+						<img class="d-flex img-fluid  post-image" src="img/post_3.jpg" alt="Generic placeholder image">
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-8">
