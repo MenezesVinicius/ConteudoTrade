@@ -11,7 +11,8 @@ global $con;
 
 if(!empty($_GET['key'])){
     //check the DB for the key
-    $resCheck = mysqli_query($con, "SELECT * FROM downloads WHERE downloadkey = '".mysql_real_escape_string($_GET['key'])."' LIMIT 1");
+    $key = $_GET['key'];
+    $resCheck = mysqli_query($con, "SELECT * FROM downloads WHERE downloadkey = '".mysqli_real_escape_string($con, $key)."' LIMIT 1");
     $arrCheck = mysqli_fetch_assoc($resCheck);
     if(!empty($arrCheck['file'])){
         //check that the download time hasnt expired
