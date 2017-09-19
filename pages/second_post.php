@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 
@@ -47,7 +47,7 @@
         <div class="col-md-8">
             <!-- Title -->
             <h1 class="mt-4">A tecnologia muda seu cliente, você está mudando junto com ele?</h1>
-            <h6>Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</h6>
+            <h6 align="justify">Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</h6>
 
             <hr>
             <!-- Date/Time -->
@@ -56,29 +56,20 @@
             <hr>
 
             <!-- Post Content -->
-            <p>A mudança no balanço do poder entre o consumidor e a indústria não é novidade, isso é certo. Entretanto, temos novos fatores que estão fazendo essa mudança se acentuar.  O primeiro deles é o aumento de canais de distribuição e seus desdobramentos virtuais, um exemplo é a disputa dos varejistas online, que também cria competição para as lojas e serviços locais.
+            <p align="justify">A mudança no balanço do poder entre o consumidor e a indústria não é novidade, isso é certo. Entretanto, temos novos fatores que estão fazendo essa mudança se acentuar.  O primeiro deles é o aumento de canais de distribuição e seus desdobramentos virtuais, um exemplo é a disputa dos varejistas online, que também cria competição para as lojas e serviços locais.
 </p>
-
             <h4>Tecnologia que muda vendas</h4>
 
-            <p>Também sabemos que a internet passou a permitir ao cliente a busca de informações, muitas vezes transformando o antigo processo de venda tradicional auxiliada em um processo de compra gerido pelo próprio cliente, onde ele mesmo busca informações relevantes para seu objetivo. Esse é um ponto importante para as vendas, se você não está sendo a fonte de informação para seu consumidor, certamente outra pessoa está, possivelmente seu competidor.</p>
-
-
-            <p>O terceiro fator, além dos novos canais e da inversão do processo de compra, são as tecnologias de automação e de Big Data, que permitem a compreensão de volumes muito grandes de dados, que no varejo pode ser usada, como exemplo, para identificar padrões de consumo dos compradores.</p>
-
-            <p>É preciso entender que não estamos falando apenas de grandes clientes, mas clientes de todo porte. Onde grandes compradores para varejo têm ao alcance de suas mãos o poder de análise de milhares de dados, os clientes menores possuem acesso a muito mais informação do que possuíam no passado, seja através de estratégias para conhecer melhor seu público, que melhoraram muito graças a difusão do marketing digital, ou para conhecer melhor as marcas que escolhe endossar em seu ponto de venda.
+	    <p align="justify">Também sabemos que a internet passou a permitir ao cliente a busca de informações, muitas vezes transformando o antigo processo de venda tradicional auxiliada em um processo de compra gerido pelo próprio cliente, onde ele mesmo busca informações relevantes para seu objetivo. Esse é um ponto importante para as vendas, se você não está sendo a fonte de informação para seu consumidor, certamente outra pessoa está, possivelmente seu competidor.</p>
+            <p align="justify">O terceiro fator, além dos novos canais e da inversão do processo de compra, são as tecnologias de automação e de Big Data, que permitem a compreensão de volumes muito grandes de dados, que no varejo pode ser usada, como exemplo, para identificar padrões de consumo dos compradores.</p>
+            <p align="justify">É preciso entender que não estamos falando apenas de grandes clientes, mas clientes de todo porte. Onde grandes compradores para varejo têm ao alcance de suas mãos o poder de análise de milhares de dados, os clientes menores possuem acesso a muito mais informação do que possuíam no passado, seja através de estratégias para conhecer melhor seu público, que melhoraram muito graças a difusão do marketing digital, ou para conhecer melhor as marcas que escolhe endossar em seu ponto de venda.
             </p>
-
-
-            <p>Em meio a todas essas mudanças, o poder passa a se concentrar ainda mais nos clientes, e isso é pode ser positivo para seu negócio!
-
-            </p>
+            <p align="justify">Em meio a todas essas mudanças, o poder passa a se concentrar ainda mais nos clientes, e isso é pode ser positivo para seu negócio!
+</p>
 <h4>Usando a informação a nosso favor</h4>
-            <p>Clientes informados podem ser seus maiores parceiros, pois esses são mais capazes de conhecer suas próprias necessidades e como seu produto pode ser melhor utilizado ou vendido, informação chave para desenvolvimento de estratégias para maximizar vendas.  </p>
-
-            <p>A pergunta deve ser feita novamente, você está mudando junto com seu cliente? </p>
-			
-			<p>Para conquistar esse tipo de cliente é importante que sua marca esteja acompanhando os avanços tecnológicos desse cliente! Preparamos um material para que você conheça mais sobre ferramentas digitais que vão te ajudar a vender mais, é só conferir aqui embaixo: </p>
+            <p align="justify">Clientes informados podem ser seus maiores parceiros, pois esses são mais capazes de conhecer suas próprias necessidades e como seu produto pode ser melhor utilizado ou vendido, informação chave para desenvolvimento de estratégias para maximizar vendas.  </p>
+            <p align="justify">A pergunta deve ser feita novamente, você está mudando junto com seu cliente? </p>
+	    <p align="justify">Para conquistar esse tipo de cliente é importante que sua marca esteja acompanhando os avanços tecnológicos desse cliente! Preparamos um material para que você conheça mais sobre ferramentas digitais que vão te ajudar a vender mais, é só conferir aqui embaixo: </p>
 
             <div class="ebook_box">
                 <div class="row">
@@ -89,7 +80,7 @@
                             <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
                             <img class="img-fluid" src="../img/ebook2.jpg"/>
 
-                            <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades,
+                            <p align="justify" class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades,
                                 por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que
                                 trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no
                                 seu e-mail!</p>
@@ -141,7 +132,7 @@
 
                     <p class="news_t2">Newsletter</p>
 
-                    <p class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                    <p align="justify" class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
                         nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
 
                 </div>
