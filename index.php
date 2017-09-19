@@ -46,17 +46,22 @@
         <div class="col-md-8">
             <div class="card mb-4 my-4">
                 <div class="media">
-                    <img class="d-flex post-image" src="img/post_1.jpg" alt="Generic placeholder image">
+					<div class="row">
+						<div class="col-xs-12 col-sm-11 col-md-4">
+						<img class="d-flex img-fluid  post-image" src="img/post_1.jpg" alt="Generic placeholder image">
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-8">
+						<div class="media-body">
+							<div class="card-body">
+								<a href="pages/first_post.php"><h2 class="card-title">Aprenda a diferença entre Shopper e
+										Consumidor</h2></a>
 
-                    <div class="media-body">
-                        <div class="card-body">
-                            <a href="pages/first_post.php"><h2 class="card-title">Aprenda a diferença entre Shopper e
-                                    Consumidor</h2></a>
-
-                            <p class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
-                                atualidade!</p>
-                        </div>
-
+								<p class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
+									atualidade!</p>
+							</div>
+						</div>
+						</div>
                     </div>
                 </div>
                 <div class="card-footer text-muted">
