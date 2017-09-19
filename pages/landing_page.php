@@ -36,7 +36,8 @@
         <div class="col-md-8">
             <div class="bg-white">
                 <div class="in_pad">
-                    <p class="h3_01"> Titulo com duas linhas possivelmente teste testetestetes tetestetesteteste</p>
+                    <p class="h3_01">
+Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão"</p>
 
                     <div class="row">
                         <div class="col-md-5 embed-responsive">
@@ -45,7 +46,10 @@
 
                         <div class="col-md-7">
                             <p class="h6_01 content">
-                                Pequeno texto da cahmada Loren Ipsum Ficiet Aut ratur as audanto
+                             O mercado se atualiza todos os dias.<br> Você deve se atualizar tambem!
+							 <br>
+							 <br>
+							É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!
                             </p>
 
 
@@ -60,7 +64,7 @@
             <div class="card custom-border">
 
                 <div class="text-center newsletter card-header">
-                    <p class="news_t1">Faça download já!</p>
+                    <p class="news_t1">Receba agora</p>
                 </div>
                 <div class="card-body card-form">
                     <form id="contact" method="post" onsubmit="return validate()"
