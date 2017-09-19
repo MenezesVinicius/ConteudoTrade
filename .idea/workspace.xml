@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="18" selection-start="9765" selection-end="9765" vertical-scroll-proportion="-20.038462" vertical-offset="3627" max-vertical-offset="4318">
+            <state line="101" column="29" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.5541958" vertical-offset="1400" max-vertical-offset="4318">
               <folding>
-                <marker date="1505796964527" expanded="true" signature="9764:9832" placeholder="..." />
+                <marker date="1505797760028" expanded="true" signature="9780:9848" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="download.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/download.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.24300699" vertical-offset="303" max-vertical-offset="1241">
+            <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="2.6153846" vertical-offset="510" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/helpers.php" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/src/send_email.php" />
-        <option value="$PROJECT_DIR$/pages/landing_page.php" />
         <option value="$PROJECT_DIR$/pages/download.php" />
+        <option value="$PROJECT_DIR$/pages/landing_page.php" />
       </list>
     </option>
   </component>
@@ -426,19 +426,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
+    <entry file="file://$PROJECT_DIR$/pages/download.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="18" selection-start="9765" selection-end="9765" vertical-scroll-proportion="-20.038462" vertical-offset="3627" max-vertical-offset="4318">
-          <folding>
-            <marker date="1505796964527" expanded="true" signature="9764:9832" placeholder="..." />
-          </folding>
+        <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="2.6153846" vertical-offset="510" max-vertical-offset="1241">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/download.php">
+    <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.24300699" vertical-offset="303" max-vertical-offset="1241">
-          <folding />
+        <state line="101" column="29" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.5541958" vertical-offset="1400" max-vertical-offset="4318">
+          <folding>
+            <marker date="1505797760028" expanded="true" signature="9780:9848" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

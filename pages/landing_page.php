@@ -102,7 +102,7 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
                     </button>
                 </div>
                 <div class="modal-body">
-                    Inscrição feita com sucesso! Bem vindo a nossa newsletter!
+                    Envio feito com sucesso! Compartilhe o blog com seus amigos e boa leitura!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
