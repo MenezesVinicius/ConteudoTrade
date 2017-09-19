@@ -38,15 +38,9 @@
       <file leaf-file-name="send_email.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/send_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="18" selection-start="5402" selection-end="5402" vertical-scroll-proportion="0.73846155" vertical-offset="2016" max-vertical-offset="2669">
+            <state line="125" column="0" selection-start="5119" selection-end="5119" vertical-scroll-proportion="0.7094017" vertical-offset="1710" max-vertical-offset="2380">
               <folding>
-                <marker date="1505794243237" expanded="true" signature="4588:5065" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="4611:4677" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="4700:5041" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="4778:5017" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="4799:4890" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="4911:4992" placeholder="..." />
-                <marker date="1505794243237" expanded="true" signature="5401:5469" placeholder="..." />
+                <marker date="1505794663971" expanded="true" signature="5138:5206" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -413,15 +407,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/send_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="18" selection-start="5402" selection-end="5402" vertical-scroll-proportion="0.73846155" vertical-offset="2016" max-vertical-offset="2669">
+        <state line="125" column="0" selection-start="5119" selection-end="5119" vertical-scroll-proportion="0.7094017" vertical-offset="1710" max-vertical-offset="2380">
           <folding>
-            <marker date="1505794243237" expanded="true" signature="4588:5065" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="4611:4677" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="4700:5041" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="4778:5017" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="4799:4890" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="4911:4992" placeholder="..." />
-            <marker date="1505794243237" expanded="true" signature="5401:5469" placeholder="..." />
+            <marker date="1505794663971" expanded="true" signature="5138:5206" placeholder="..." />
           </folding>
         </state>
       </provider>
