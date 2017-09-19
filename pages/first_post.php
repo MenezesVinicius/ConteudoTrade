@@ -89,9 +89,51 @@
                 algo que alcance ou supere suas expectativas e as empresas e seus colaboradores devem trabalhar
                 sempre em prol deste fator. </p>
 
+<div class="ebook_box">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="bb_c1">
+                                
 
+                                <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
+<img class="img-fluid" src="../img/ebook2.jpg"/>
+                                <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="bb_c2">
+							
+							
+                                <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                                    <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar tambem! </p>
+                                    
+									<p class="ebook_title"> Receba no seu email: </p>
+									<fieldset>
+									
+                            <label class="label2" > Nome completo: </label>
+                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
+                                   required>
+                        </fieldset>
+                        <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
+                            Nome inválido!
+                        </div>
+                        <fieldset>
+                            <label class="label2" > Email profissional: </label>
+                            <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="submit">Quero Receber</button>
+                        </fieldset>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
         </div>
-
+		
 
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
