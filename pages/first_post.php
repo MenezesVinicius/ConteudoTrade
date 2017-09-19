@@ -89,51 +89,56 @@
                 algo que alcance ou supere suas expectativas e as empresas e seus colaboradores devem trabalhar
                 sempre em prol deste fator. </p>
 
-<div class="ebook_box">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="bb_c1">
-                                
+            <div class="ebook_box">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="bb_c1">
 
-                                <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
-<img class="img-fluid" src="../img/ebook2.jpg"/>
-                                <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!</p>
-                            </div>
-                        </div>
 
-                        <div class="col-6">
-                            <div class="bb_c2">
-							
-							
-                                <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                                    <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar tambem! </p>
-                                    
-									<p class="ebook_title"> Receba no seu email: </p>
-									<fieldset>
-									
-                            <label class="label2" > Nome completo: </label>
-                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
-                                   required>
-                        </fieldset>
-                        <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
-                            Nome inválido!
-                        </div>
-                        <fieldset>
-                            <label class="label2" > Email profissional: </label>
-                            <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
-                        </fieldset>
-                        <fieldset>
-                            <button name="submit" type="submit" id="submit">Quero Receber</button>
-                        </fieldset>
-                                    </p>
-                                </form>
-                            </div>
-                        </div>
+                            <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
+                            <img class="img-fluid" src="../img/ebook2.jpg"/>
 
+                            <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades,
+                                por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que
+                                trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no
+                                seu e-mail!</p>
+                        </div>
                     </div>
+
+                    <div class="col-6">
+                        <div class="bb_c2">
+                            <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                                <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar
+                                    tambem! </p>
+
+                                <p class="ebook_title"> Receba no seu email: </p>
+                                <fieldset>
+
+                                    <label class="label2"> Nome completo: </label>
+                                    <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome"
+                                           id="nome_form"
+                                           required>
+                                </fieldset>
+                                <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
+                                    Nome inválido!
+                                </div>
+                                <fieldset>
+                                    <label class="label2"> Email profissional: </label>
+                                    <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email"
+                                           required>
+                                </fieldset>
+                                <fieldset>
+                                    <button name="submit" type="submit" id="submit">Quero Receber</button>
+                                </fieldset>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
         </div>
-		
+
 
         <!-- Sidebar Widgets Column -->
         <div class="col-md-4">
@@ -196,6 +201,27 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Erro!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Erro ao tentar enviar e-mail! Por favor, tente novamente.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>
 <!-- /.container -->
 
@@ -226,6 +252,10 @@
 <?php
 include('../src/db.php');
 include('../src/helpers.php');
+use PHPMailer\PHPMailer\PHPMailer;
+
+require '../src/class/PHPMailer.php';
+require '../src/class/SMTP.php';
 
 global $con;
 $helper = new helpers();
@@ -233,7 +263,6 @@ date_default_timezone_set('America/Sao_Paulo');
 $dataLocal = date('Y/m/d H:i:s', time());
 
 if (isset($_POST['submit'])) {
-
     global $con;
     $helper = new helpers();
     $nome = $_POST['nome'];
@@ -279,11 +308,58 @@ if (isset($_POST['submit'])) {
 
     $ip = $helper->getIP();
 
-    $sql = "INSERT IGNORE INTO leads (nome, email, ip, timestamp) VALUES ('$nome', '$email', '$ip', '$timestamp')";
-    $result = mysqli_query($con, $sql) or print("Can't insert into table php_blog.<br />" . $sql . "<br />" . mysql_error());
+    $sql = "INSERT IGNORE INTO leads (nome, email, ip, timestamp, tipo) VALUES ('$nome', '$email', '$ip', '$timestamp', '$tipo')";
+    $result = mysqli_query($con, $sql) or print("Can't insert.<br />" . $sql . "<br />" . mysql_error());
+
+    //get a unique download key
+    $strKey = $helper->createKey();
+    $sql = "INSERT INTO downloads (downloadkey, file, expires) VALUES ('$strKey', 'Ebook_1.pdf', '" . (time() + (60 * 60 * 24 * 7)) . "')";
+    //insert the download record into the database
+    $result = mysqli_query($con, $sql) or print("Can't insert .<br />" . $sql . "<br />" . mysql_error());
+
+    // Inicia a classe PHPMailer
+    $mail = new PHPMailer(true);
+    // Define os dados do servidor e tipo de conexão
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    $mail->IsSMTP(); // Define que a mensagem será SMTP
+
+    try {
+        $mail->Host = 'smtp.umbler.com'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
+        $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
+        $mail->Port = 587; //  Usar 587 porta SMTP
+        $mail->Username = 'anderson@conteudotrade.com'; // Usuário do servidor SMTP (endereço de email)
+        $mail->Password = 'gamagama'; // Senha do servidor SMTP (senha do email usado)
+
+        //Define o remetente
+        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        $mail->setFrom('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->AddReplyTo('anderson@conteudotrade.com', 'Conteúdo Trade'); //Seu e-mail
+        $mail->Subject = 'Faça o Download do seu E-book agora mesmo!'; //Assunto do e-mail
+        $mail->CharSet = 'UTF-8';
+
+        //Define os destinatário(s)
+        //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        $mail->AddAddress($email, '');
+
+        $link = '<a href=http://conteudotrade.com/pages/download.php?key=' . $strKey . '>Baixar E-book</a>';
+
+        $message = 'Olá, clique no seguinte link para realizar o download do nosso E-book: ' . $link . '<br><br>Obrigado!';
+
+        //Define o corpo do email
+        $mail->MsgHTML($message);
+
+        ////Caso queira colocar o conteudo de um arquivo utilize o método abaixo ao invés da mensagem no corpo do e-mail.
+        //$mail->MsgHTML(file_get_contents('arquivo.html'));
+
+        $mail->Send();
+        //caso apresente algum erro é apresentado abaixo com essa exceção.
+    } catch (phpmailerException $e) {
+        echo "<script>
+                $('#errorModal').modal('show');
+             </script>";
+    }
+
     echo "<script>
              $('#thankyouModal').modal('show');
           </script>";
 }
-
-?>

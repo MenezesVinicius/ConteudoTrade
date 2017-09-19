@@ -29,7 +29,7 @@
 
 <div class="container">
     <div class="text-center">
-       <a href="../index.php"> <img height="50px" class="cover-small" src="../img/cover2.png"/> </a>
+        <a href="../index.php"> <img height="50px" class="cover-small" src="../img/cover2.png"/> </a>
     </div>
 
     <div class="row">
@@ -37,7 +37,8 @@
             <div class="bg-white">
                 <div class="in_pad">
                     <p class="h3_01">
-Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão de vendas"</p>
+                        Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão de
+                        vendas"</p>
 
                     <div class="row">
                         <div class="col-md-5 embed-responsive">
@@ -46,13 +47,13 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
 
                         <div class="col-md-7">
                             <p class="h6_01 content">
-                             O mercado se atualiza todos os dias.<br> Você deve se atualizar tambem!
-							 <br>
-							 <br>
-							É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!
+                                O mercado se atualiza todos os dias.<br> Você deve se atualizar também!
+                                <br>
+                                <br>
+                                É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o
+                                ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que
+                                vão facilitar sua vida e aumentar suas vendas, receba este exclusivo material no seu e-mail!
                             </p>
-
-
                         </div>
                     </div>
                 </div>
@@ -96,13 +97,13 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Obrigado!</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Sucesso!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Envio feito com sucesso! Compartilhe o blog com seus amigos e boa leitura!
+                    Seu ebook foi enviado para o seu email! Aproveite a leitura!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -110,6 +111,27 @@ Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automa
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Erro!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Erro ao tentar enviar e-mail! Por favor, tente novamente.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <footer>
@@ -238,8 +260,9 @@ if (isset($_POST['submit'])) {
         $mail->Send();
         //caso apresente algum erro é apresentado abaixo com essa exceção.
     } catch (phpmailerException $e) {
-        echo "error email";
-        echo $e->errorMessage(); //Mensagem de erro costumizada do PHPMailer
+        echo "<script>
+                $('#errorModal').modal('show');
+             </script>";
     }
 
     echo "<script>

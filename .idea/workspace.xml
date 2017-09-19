@@ -34,12 +34,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="29" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.5541958" vertical-offset="1400" max-vertical-offset="4318">
+            <state line="132" column="10" selection-start="4862" selection-end="5777" vertical-scroll-proportion="-17.923077" vertical-offset="1778" max-vertical-offset="4709">
               <folding>
-                <marker date="1505797760028" expanded="true" signature="9780:9848" placeholder="..." />
+                <element signature="e#3294#3315#0" expanded="true" />
+                <marker date="1505798545815" expanded="true" signature="10779:10850" placeholder="..." />
+                <marker date="1505798545815" expanded="true" signature="10878:10946" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first_post.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/first_post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="223" column="4" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.94188035" vertical-offset="3240" max-vertical-offset="6307">
+              <folding>
+                <element signature="e#5450#5471#0" expanded="true" />
+                <element signature="e#7413#7434#0" expanded="true" />
+                <marker date="1505798703355" expanded="true" signature="15022:15093" placeholder="..." />
+                <marker date="1505798703355" expanded="true" signature="15121:15189" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -77,13 +93,13 @@
         <option value="$PROJECT_DIR$/NewBlog/index.html" />
         <option value="$PROJECT_DIR$/pages/single_post.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/pages/first_post.php" />
         <option value="$PROJECT_DIR$/css/blog-home.css" />
         <option value="$PROJECT_DIR$/src/helpers.php" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/src/send_email.php" />
         <option value="$PROJECT_DIR$/pages/download.php" />
         <option value="$PROJECT_DIR$/pages/landing_page.php" />
+        <option value="$PROJECT_DIR$/pages/first_post.php" />
       </list>
     </option>
   </component>
@@ -163,43 +179,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConteudoTrade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConteudoTrade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="downloads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,15 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/first_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="26" selection-start="5892" selection-end="5894" vertical-scroll-proportion="0.33273703" vertical-offset="2245" max-vertical-offset="4284">
-          <folding>
-            <marker date="1505792867070" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="23" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8136752" vertical-offset="0" max-vertical-offset="612">
@@ -435,9 +406,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="29" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.5541958" vertical-offset="1400" max-vertical-offset="4318">
+        <state line="132" column="10" selection-start="4862" selection-end="5777" vertical-scroll-proportion="-17.923077" vertical-offset="1778" max-vertical-offset="4709">
           <folding>
-            <marker date="1505797760028" expanded="true" signature="9780:9848" placeholder="..." />
+            <element signature="e#3294#3315#0" expanded="true" />
+            <marker date="1505798545815" expanded="true" signature="10779:10850" placeholder="..." />
+            <marker date="1505798545815" expanded="true" signature="10878:10946" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/first_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="4" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.94188035" vertical-offset="3240" max-vertical-offset="6307">
+          <folding>
+            <element signature="e#5450#5471#0" expanded="true" />
+            <element signature="e#7413#7434#0" expanded="true" />
+            <marker date="1505798703355" expanded="true" signature="15022:15093" placeholder="..." />
+            <marker date="1505798703355" expanded="true" signature="15121:15189" placeholder="..." />
           </folding>
         </state>
       </provider>
