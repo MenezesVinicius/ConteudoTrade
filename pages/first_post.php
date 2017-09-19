@@ -95,7 +95,7 @@
                             <div class="bb_c1">
                                 
 
-                                <p class="ebook_title"> “10 Ferramentas digitais para Trade Marketing” </p>
+                                <p class="ebook_title"> “10 Ferramentas de automação e gestão de vendas” </p>
 <img class="img-fluid" src="../img/ebook2.jpg"/>
                                 <p class="ebook_text"> É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que vão facilitar sua vida e aumentar suas vendas, receba o material no seu e-mail!</p>
                             </div>
