@@ -44,11 +44,36 @@
 
     <div class="row">
         <div class="col-md-8">
+		
+			<div class="card mb-4 my-4">
+                <div class="media">
+					<div class="row">
+						<div class="col-xs-12 col-sm-11 col-md-4">
+						<img class="d-flex img-fluid  post-image" src="img/post_2.jpg" alt="Generic placeholder image">
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-8">
+						<div class="media-body">
+							<div class="card-body">
+								<a href="pages/second_post.php"><h2 class="card-title">A tecnologia muda seu cliente, você está mudando junto com ele?</h2></a>
+
+								<p class="card-text">Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</p>
+							</div>
+						</div>
+						</div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    Postado 18 de Setembro, 2017
+                </div>
+            </div>
+			
+			
             <div class="card mb-4 my-4">
                 <div class="media">
 					<div class="row">
 						<div class="col-xs-12 col-sm-11 col-md-4">
-						<img class="d-flex img-fluid  post-image" src="img/post_1.jpg" alt="Generic placeholder image">
+						<img class="d-flex img-fluid  post-image" src="img/post_1.jpg" alt="Generic placeholder image">
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-8">
@@ -68,6 +93,9 @@
                     Postado 17 de Setembro, 2017
                 </div>
             </div>
+			
+
+			
         </div>
 
         <!-- Sidebar Widgets Column -->
