@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:image" content="http://conteudotrade.com/img/10_ferramentas_para.jpg">
     <meta property="og:image:type" content="image/jpeg">
-    
+
     <title>Conteúdo Trade</title>
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

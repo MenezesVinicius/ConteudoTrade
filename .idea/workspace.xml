@@ -23,25 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="55" selection-start="166" selection-end="298" vertical-scroll-proportion="-4.576923" vertical-offset="17" max-vertical-offset="4947">
+            <state line="16" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4755245" vertical-offset="0" max-vertical-offset="5032">
               <folding>
-                <marker date="1505929138353" expanded="true" signature="10130:10198" placeholder="..." />
+                <marker date="1505930070480" expanded="true" signature="10507:10575" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing_page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="287" selection-end="287" vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="6001">
+            <state line="6" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="6001">
               <folding>
-                <element signature="e#4481#4502#0" expanded="true" />
-                <marker date="1505929197702" expanded="true" signature="13288:13359" placeholder="..." />
-                <marker date="1505929197702" expanded="true" signature="13387:13455" placeholder="..." />
+                <element signature="e#4477#4498#0" expanded="true" />
+                <marker date="1505929690134" expanded="true" signature="13284:13355" placeholder="..." />
+                <marker date="1505929690134" expanded="true" signature="13383:13451" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/send_email.php" />
         <option value="$PROJECT_DIR$/pages/download.php" />
         <option value="$PROJECT_DIR$/pages/first_post.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/landing_page.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -174,6 +174,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConteudoTrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -191,9 +205,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ConteudoTrade\img" />
       <recent name="C:\wamp64\www\ConteudoTrade\pages\downloads" />
       <recent name="C:\wamp64\www\ConteudoTrade\src" />
-      <recent name="C:\wamp64\www\ConteudoTrade\img" />
       <recent name="C:\wamp64\www\ConteudoTrade" />
       <recent name="C:\wamp64\www\ConteudoTrade\libs" />
     </key>
@@ -275,7 +289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="69" selection-start="3255" selection-end="3290" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="4080">
           <folding>
-            <marker date="1505929138353" expanded="true" signature="10130:10198" placeholder="..." />
+            <marker date="1505930070480" expanded="true" signature="10507:10575" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -284,9 +298,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="271" column="5" selection-start="9188" selection-end="11448" vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="4811">
           <folding>
-            <element signature="e#4481#4502#0" expanded="true" />
-            <marker date="1505929197702" expanded="true" signature="13288:13359" placeholder="..." />
-            <marker date="1505929197702" expanded="true" signature="13387:13455" placeholder="..." />
+            <element signature="e#4477#4498#0" expanded="true" />
+            <marker date="1505929690134" expanded="true" signature="13284:13355" placeholder="..." />
+            <marker date="1505929690134" expanded="true" signature="13383:13451" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -312,7 +326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="0" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2788">
           <folding>
-            <marker date="1505929138353" expanded="true" signature="10130:10198" placeholder="..." />
+            <marker date="1505930070480" expanded="true" signature="10507:10575" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -321,7 +335,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="26" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="4182">
           <folding>
-            <marker date="1505929138353" expanded="true" signature="10130:10198" placeholder="..." />
+            <marker date="1505930070480" expanded="true" signature="10507:10575" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -395,22 +409,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="166" selection-end="298" vertical-scroll-proportion="-4.576923" vertical-offset="17" max-vertical-offset="4947">
-          <folding>
-            <marker date="1505929138353" expanded="true" signature="10130:10198" placeholder="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/img/10_ferramentas_para.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="287" selection-end="287" vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="6001">
+        <state line="6" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="6001">
           <folding>
-            <element signature="e#4481#4502#0" expanded="true" />
-            <marker date="1505929197702" expanded="true" signature="13288:13359" placeholder="..." />
-            <marker date="1505929197702" expanded="true" signature="13387:13455" placeholder="..." />
+            <element signature="e#4477#4498#0" expanded="true" />
+            <marker date="1505929690134" expanded="true" signature="13284:13355" placeholder="..." />
+            <marker date="1505929690134" expanded="true" signature="13383:13451" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cover2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cover_small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4755245" vertical-offset="0" max-vertical-offset="5032">
+          <folding>
+            <marker date="1505930070480" expanded="true" signature="10507:10575" placeholder="..." />
           </folding>
         </state>
       </provider>
