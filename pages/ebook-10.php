@@ -73,7 +73,7 @@
 		<div class="row">
 			<div class="col-md-6">
 		
-				<img class="img-fluid" src="../img/10_ferramentas_para" />
+				<img class="img-fluid" src="../img/10_ferramentas_para.jpg" />
 		
 			</div>
 			
