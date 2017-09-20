@@ -45,36 +45,42 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
             <!-- Title -->
-            <h1 class="mt-4">A influência do trade marketing no e-commerce</h1>
-            <h6 align="justify">O trade marketing é uma nova estratégia para fidelizar os clientes e desvincular a ideia de que o preço é o fator mais importante para um e-commerce.</h6>
+            <h1 class="mt-4">5 filmes e séries sobre empreendedorismo</h1>
+            <h6 align="justify">Uma seleção para você dar um update nas suas técnicas de vendas, marketing e liderança!</h6>
 
             <hr>
             <!-- Date/Time -->
-            <p>Postado 19 de Setembro, 2017</p>
+            <p>Postado 20 de Setembro, 2017</p>
 
             <hr>
 
             <!-- Post Content -->
            
-            <h4>O que é um e-commerce?</h4>
+            <h4>1. White Gold (2017 – Série)</h4>
+	        <p align="justify"><b>Sinopse:</b> Essex, 1983. O vendedor Vincent precisa usar o carisma e a lábia para chamar atenção no showroom onde trabalha. Mas ele vê que isso não é o suficiente e deixa de lado a moral para se dar bem em cima da concorrência. </p>
+            <p align="justify"><b>Porque assistir:</b> Na série somos apresentados a várias táticas de vendas, além de um aprendizado sobre liderança no time no qual se trabalha. Uma ótima pedida para ver em pouco tempo, um workshop da área em oito episódios de meia hora cada. </p>
+            
+            <h4>2.	Mad Men (2007/2015 – Série)</h4>
+	        <p align="justify"><b>Sinopse:</b> A série se passa nos anos 1960 e retrata a rotina de uma grande agência de publicidade. A vida pessoal e profissional de Don Draper acompanha as mudanças no mercado e na vida dos americanos no período. </p>
+            <p align="justify"><b>Porque assistir:</b> Além de dar muitas lições de marketing – como criar as campanhas, como conquistar clientes e importância e politicagem no mundo dos negócios - para empreendedores, inclusive citando companhias famosas, a série fala sobre inovar e criar oportunidades de negócios e mostra como as marcas conversam com os consumidores. </p>
+            
+            <h4>3.	House of lies (2012/2016 – Série)</h4>
+	        <p align="justify"><b>Sinopse:</b> Um time de consultores que faz de tudo para agradar seus clientes. Baseada no livro House of Lies: How Management Consultants Steal Your Watch and Then Tell You the Time, a história do seriado é bem interessante para entender a abordagem clássica de algumas consultorias. </p>
+            <p align="justify"><b>Porque assistir:</b> O protagonista, sendo um excelente vendedor, utiliza várias técnicas de vendas, conseguindo fechar grandes contratos e construindo uma forte imagem pessoal. A série mostra três principais técnicas: empatia e simpática, construção de credibilidade e off the wall questions. </p>
 
-	          <p align="justify">A melhor maneira de definir um e-commerce é: uma empresa que traz os produtos de uma única empresa, seja ela mesma ou não, em uma plataforma virtual própria. </p>
-            <p align="justify">Não existe um intermediador para o processo de venda. O cliente faz sua compra e a empresa trata de todos os processos para que a compra chegue ao cliente.</p>
-            
-            <h4>Por que o consumidor escolhe o e-commerce?</h4>
-            <p align="justify">Primeiro pelos preços! Os preços costumam ser mais baixos que os de lojas físicas, afinal, em um e-commerce os custos são menores, pois não há custos como: aluguel de loja, salário e comissão de vendedores.</p>
-            <p align="justify">Segundo pela praticidade, além de poder comprar no conforto de suas casas, para o cliente que gosta de comparar preços, a facilidade em fazer isso pela internet é um diferencial enorme.</p>
-            
-            <h4>Trade marketing e e-commerce</h4>
-            
-            <p align="justify">Para entendermos a influência do trade marketing no e-commerce é necessário saber que o varejista online possui diferentes fornecedores para diferentes marcas, com pouco poder de barganha e por isso os preços quase sempre serão inflexíveis.</p>
-            <p align="justify">Não conseguindo preços menores, o empreendedor se vê de mãos atadas, pois não consegue oferecer menores preços para seus produtos. A dica é identificar o produto com maior rotatividade no site e criar uma categoria para essa marca, dedicando um espaço para a divulgação, além de oferecer descontos e facilidades.</p>
-            <p align="justify">Tendo uma maior taxa de conversão na página inicial, já pode aplicar sua estratégia de trade marketing e negociar os preços com fornecedores.</p>
-            <p align="justify">Outra dica interessante é usar ferramentas como redes sociais e e-mail para criar relacionamentos mais duradouros com os clientes, não focado apenas no comercial, mas também alinhar as necessidades deles com os objetivos do seu empreendimento.</p>            
-            
+            <h4>4.	Fome de poder (2016 – Filme)</h4>
+	        <p align="justify"><b>Sinopse:</b> A história da ascensão do McDonald's. Após receber uma demanda sem precedentes e notar uma movimentação de consumidores fora do normal, o vendedor de Illinois, Ray Kroc adquire uma participação nos negócios da lanchonete dos irmãos Richard e Maurice Mac McDonald no sul da Califórnia e, pouco a pouco eliminando os dois da rede, transforma a marca em um gigantesco império alimentício. </p>
+            <p align="justify"><b>Porque assistir:</b>O filme não fala somente sobre a rede, tem em seu roteiro o empreendedorismo como fio condutor. Há pelo menos seis lições a serem aprendidas, entre elas arriscar-se em ideias inovadoras e ter a sua volta as pessoas certas para alcançar o sucesso. </p>
+ 
+            <h4>5.	O lobo de wall street (2013 – Filme)</h4>
+	        <p align="justify"><b>Sinopse:</b> Conta a história de Jordan Belfort, um corretor de ações que, aos 26 anos já ganhava 49 milhões de dólares por ano. Porém, toda sua fortuna era originária de fraudes, corrupção e lavagem de dinheiro. </p>
+            <p align="justify"><b>Porque assistir:</b> O interessante dessa história é o papel que uma liderança forte tem para a empresa. A paixão e o entusiasmo que o líder passa aos colaboradores cria um ambiente de incrível força de vontade em busca de resultados. Quando o líder realmente acredita na empresa, essa confiança é percebida e absorvida pela sua equipe, e é essa a lição que o filme nos passa. </p>
+  
+
+ 
             <div class="ebook_box">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 col-xs-12">
                         <div class="bb_c1">
 
 
@@ -88,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-6 col-xs-12">
                         <div class="bb_c2">
                             <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                                 <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar
