@@ -108,7 +108,7 @@
 				</div>
 				
 				<div class="text-center newsletter card-header">
-                    <p class="news_t1">Preencha para baixar o ebook::</p>
+                    <p class="news_t1">Preencha para baixar o ebook:</p>
                 </div>
                 
 				<div class="container">
