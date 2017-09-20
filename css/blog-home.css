@@ -7,6 +7,55 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
+.elbg {
+	background-color: white;
+}
+
+.eltopo {margin-top: 4%;}
+
+.line1 {
+  padding-top: 50px;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: center;
+  color: #696969;
+}   
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.right_side {
+	padding-left: 5%;
+	padding-right: 8%;
+	padding-top: 45px;
+	padding-bottom: 65px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.line2 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  color: #696969;
+}
+
+
 .cover{
     width: 100%;
     z-index: 0;
@@ -236,6 +285,11 @@ fieldset {
 
 .copyright {
     text-align: center;
+}
+
+.copyright2 {
+    text-align: center;
+	color: white;
 }
 
 #contact input:focus,
