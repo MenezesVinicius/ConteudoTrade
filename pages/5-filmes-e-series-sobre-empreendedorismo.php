@@ -75,12 +75,10 @@
             <h4>5.	O lobo de wall street (2013 – Filme)</h4>
 	        <p align="justify"><b>Sinopse:</b> Conta a história de Jordan Belfort, um corretor de ações que, aos 26 anos já ganhava 49 milhões de dólares por ano. Porém, toda sua fortuna era originária de fraudes, corrupção e lavagem de dinheiro. </p>
             <p align="justify"><b>Porque assistir:</b> O interessante dessa história é o papel que uma liderança forte tem para a empresa. A paixão e o entusiasmo que o líder passa aos colaboradores cria um ambiente de incrível força de vontade em busca de resultados. Quando o líder realmente acredita na empresa, essa confiança é percebida e absorvida pela sua equipe, e é essa a lição que o filme nos passa. </p>
-  
-
  
             <div class="ebook_box">
                 <div class="row">
-                    <div class="col-6 col-xs-12">
+                    <div class="col-6 col-sm-12">
                         <div class="bb_c1">
 
 
@@ -94,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-xs-12">
+                    <div class="col-6 col-sm-12">
                         <div class="bb_c2">
                             <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                                 <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar

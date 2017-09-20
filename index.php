@@ -56,7 +56,34 @@
 
     <div class="row">
         <div class="col-md-8">
+		
+		
+            <div class="card mb-4 my-4">
+                <div class="media">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-11 col-md-4">
+                            <img class="d-flex img-fluid  post-image" src="img/post_3.jpg"
+                                 alt="Generic placeholder image">
+                        </div>
 
+                        <div class="col-xs-12 col-sm-12 col-md-8">
+                            <div class="media-body">
+                                <div class="card-body">
+                                    <a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify"
+                                                                                                 class="card-title">5 filmes e séries sobre empreendedorismo</h2></a>
+
+                                    <p align="justify" class="card-text">Uma seleção para você dar um update nas suas técnicas de vendas, marketing e liderança!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    Postado 19 de Setembro, 2017
+                </div>
+            </div>
+		
+		
             <div class="card mb-4 my-4">
                 <div class="media">
                     <div class="row">
@@ -70,11 +97,11 @@
                                 <div class="card-body">
                                     <a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify"
                                                                                                  class="card-title">A
-                                            influência do trade marketing no e-commerce.</h2></a>
+                                            influência do trade marketing no e-commerce</h2></a>
 
                                     <p align="justify" class="card-text">O trade marketing é uma nova estratégia para
                                         fidelizar os clientes e desvincular a ideia de que o preço é o fator mais
-                                        importante para um e-commerce.</p>
+                                        importante para um e-commerce</p>
                                 </div>
                             </div>
                         </div>
