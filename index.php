@@ -69,7 +69,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-8">
                             <div class="media-body">
                                 <div class="card-body">
-                                    <a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify"
+                                    <a href="pages/5-filmes-e-series-sobre-empreendedorismo.php"><h2 align="justify"
                                                                                                  class="card-title">5 filmes e séries sobre empreendedorismo</h2></a>
 
                                     <p align="justify" class="card-text">Uma seleção para você dar um update nas suas técnicas de vendas, marketing e liderança!</p>

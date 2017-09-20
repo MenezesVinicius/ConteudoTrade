@@ -59,7 +59,8 @@
             <h4>1. White Gold (2017 – Série)</h4>
 	        <p align="justify"><b>Sinopse:</b> Essex, 1983. O vendedor Vincent precisa usar o carisma e a lábia para chamar atenção no showroom onde trabalha. Mas ele vê que isso não é o suficiente e deixa de lado a moral para se dar bem em cima da concorrência. </p>
             <p align="justify"><b>Porque assistir:</b> Na série somos apresentados a várias táticas de vendas, além de um aprendizado sobre liderança no time no qual se trabalha. Uma ótima pedida para ver em pouco tempo, um workshop da área em oito episódios de meia hora cada. </p>
-            
+            <img src="../img/p4-01.jpg" class="img-fluid">
+			
             <h4>2.	Mad Men (2007/2015 – Série)</h4>
 	        <p align="justify"><b>Sinopse:</b> A série se passa nos anos 1960 e retrata a rotina de uma grande agência de publicidade. A vida pessoal e profissional de Don Draper acompanha as mudanças no mercado e na vida dos americanos no período. </p>
             <p align="justify"><b>Porque assistir:</b> Além de dar muitas lições de marketing – como criar as campanhas, como conquistar clientes e importância e politicagem no mundo dos negócios - para empreendedores, inclusive citando companhias famosas, a série fala sobre inovar e criar oportunidades de negócios e mostra como as marcas conversam com os consumidores. </p>
