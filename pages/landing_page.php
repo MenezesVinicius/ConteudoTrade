@@ -67,72 +67,61 @@
 </head>
 <body class="main-area">
 
-<div class="container">
-    <div class="text-center">
-        <a href="../index.php"> <img height="50px" class="cover-small" src="../img/cover2.png"/> </a>
-    </div>
 
-    <div class="row">
-        <div class="col-md-8">
-            <div class="bg-white">
-                <div class="in_pad">
-                    <p class="h3_01">
-                        Facilite sua vida e aumente as vendas conhecendo essas "10 Ferramentas de automação e gestão de
-                        vendas"</p>
+<div  class="container eltopo">
+	<div class="elbg">
+		<div class="row">
+			<div class="col-md-6">
+		
+				<img class="img-fluid" src="../img/10_ferramentas_para.jpg" />
+		
+			</div>
+			
+			<div class="col-md-6">
 
-                    <div class="row">
-                        <div class="col-md-5 embed-responsive">
-                            <img class="img-fluid" src="../img/ebook1.jpg"/>
-                        </div>
-
-                        <div class="col-md-7">
-                            <p class="h6_01 content">
-                                O mercado se atualiza todos os dias.<br> Você deve se atualizar também!
-                                <br>
-                                <br>
-                                É um grande desafio se manter em dia sobre todas as oportunidades, por isso criamos o
-                                ebook <b> "10 Ferramentas de automação e gestão de vendas" </b> que trás softwares que
-                                vão facilitar sua vida e aumentar suas vendas, receba este exclusivo material no seu
-                                e-mail!
-                            </p>
-                        </div>
-                    </div>
+			<div class="right_side">
+			<div class="">
+				<div class="line1"> 
+				Conheça “10 ferramentas de automação e gestão de vendas” que vão te ajudar a virar o jogo!
+				</div>
+			
+				<div class="line2"> 
+				Fizemos esse ebook gratúito pra te mostrar 10 ferramentas que você precisa conhecer para fechar mais vendas!
+				</div>
+				
+				<div class="text-center newsletter card-header">
+                    <p class="news_t1">Faça download agora:</p>
                 </div>
-            </div>
-
-        </div>
-
-        <div class="col-md-4">
-            <div class="card custom-border">
-
-                <div class="text-center newsletter card-header">
-                    <p class="news_t1">Receba agora</p>
-                </div>
-                <div class="card-body card-form">
-                    <form id="contact" method="post" onsubmit="return validate()"
-                          action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                        <fieldset>
-                            <label> Nome completo: </label>
-                            <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
+                
+				<div class="container">
+					<div class="card-body card-form">
+						<form id="contact" method="post" onsubmit="return validate()"
+							action="<?php echo $_SERVER['PHP_SELF']; ?>">
+							<fieldset>
+								<label> Nome completo: </label>
+								<input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
                                    required>
-                        </fieldset>
-                        <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
-                            Nome inválido!
-                        </div>
-                        <fieldset>
-                            <label> Email profissional: </label>
-                            <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
-                        </fieldset>
-                        <fieldset>
-                            <button name="submit" type="submit" id="submit">Quero Receber</button>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+							</fieldset>
+                        
+							<div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
+								Nome inválido!
+							</div>
+                        
+							<fieldset>
+								<label> Email profissional: </label>
+								<input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
+							</fieldset>
 
-    <!-- Modal -->
+							<fieldset>
+								<button name="submit" type="submit" id="submit">Quero Receber</button>
+							</fieldset>
+                    </form>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+			<!-- Modal -->
     <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -175,6 +164,51 @@
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+</div>
+</div>
+
+    
+
+    
+
 <footer>
     <div class="container text-center">
         <a href="https://www.facebook.com/Trade-Marketing-1943128225911886/">
@@ -184,7 +218,7 @@
           </span>
         </a>
 
-        <p class="copyright">Copyright &copy; Conteúdo Trade 2017</p>
+        <p class="copyright2">Copyright &copy; Conteúdo Trade 2017</p>
     </div>
 </footer>
 
