@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Conteúdo Trade</title>
+    <title>Conteúdo Trade|Home</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-8">
 						<div class="media-body">
 							<div class="card-body">
-								<a href="pages/third_post.php"><h2 align="justify" class="card-title">A influência do trade marketing no e-commerce.</h2></a>
+								<a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify" class="card-title">A influência do trade marketing no e-commerce.</h2></a>
 
 								<p align="justify" class="card-text">O trade marketing é uma nova estratégia para fidelizar os clientes e desvincular a ideia de que o preço é o fator mais importante para um e-commerce.</p>
 							</div>
