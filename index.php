@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Blog com as últimas notícias do mundo trade marketing!">
-    <meta property="og:title" content="Conteúdo Trade" />
+    <meta property="og:title" content="Conteúdo Trade"/>
     <meta property="og:url" content="http://conteudotrade.com/"/>
     <meta property="og:description" content="Blog com as últimas notícias do mundo trade marketing!">
     <meta property="og:image" content="http://conteudotrade.com/img/cover_small.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:type" content="article" />
+    <meta property="og:type" content="article"/>
 
     <title>Conteúdo Trade|Home</title>
 
@@ -40,6 +40,13 @@
 
 <body class="bg-light">
 
+<link itemprop="thumbnailUrl" href="http://conteudotrade.com/img/cover_small.png">
+
+<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="http://conteudotrade.com/img/cover_small.png">
+</span>
+
+
 <header>
     <img src="img/cover.png" class="img-fluid cover" alt="Responsive image">
 </header>
@@ -49,81 +56,92 @@
 
     <div class="row">
         <div class="col-md-8">
-		
-					<div class="card mb-4 my-4">
-                <div class="media">
-					<div class="row">
-						<div class="col-xs-12 col-sm-11 col-md-4">
-						<img class="d-flex img-fluid  post-image" src="img/post_3.jpg" alt="Generic placeholder image">
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-8">
-						<div class="media-body">
-							<div class="card-body">
-								<a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify" class="card-title">A influência do trade marketing no e-commerce.</h2></a>
 
-								<p align="justify" class="card-text">O trade marketing é uma nova estratégia para fidelizar os clientes e desvincular a ideia de que o preço é o fator mais importante para um e-commerce.</p>
-							</div>
-						</div>
-						</div>
+            <div class="card mb-4 my-4">
+                <div class="media">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-11 col-md-4">
+                            <img class="d-flex img-fluid  post-image" src="img/post_3.jpg"
+                                 alt="Generic placeholder image">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-8">
+                            <div class="media-body">
+                                <div class="card-body">
+                                    <a href="pages/influencia-trade-marketing-ecommerce.php"><h2 align="justify"
+                                                                                                 class="card-title">A
+                                            influência do trade marketing no e-commerce.</h2></a>
+
+                                    <p align="justify" class="card-text">O trade marketing é uma nova estratégia para
+                                        fidelizar os clientes e desvincular a ideia de que o preço é o fator mais
+                                        importante para um e-commerce.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-footer text-muted">
                     Postado 19 de Setembro, 2017
                 </div>
             </div>
-		
-			<div class="card mb-4 my-4">
-                <div class="media">
-					<div class="row">
-						<div class="col-xs-12 col-sm-11 col-md-4">
-						<img class="d-flex img-fluid  post-image" src="img/post_2.jpg" alt="Generic placeholder image">
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-8">
-						<div class="media-body">
-							<div class="card-body">
-								<a href="pages/second_post.php"><h2 align="justify" class="card-title">A tecnologia muda seu cliente, você está mudando junto com ele?</h2></a>
 
-								<p align="justify" class="card-text">Fatores tecnológicos, junto com o cenário econômico estão mudando o cenário de vendas como conhecemos, e é seu dever repensar como lidar com seus clientes.</p>
-							</div>
-						</div>
-						</div>
+            <div class="card mb-4 my-4">
+                <div class="media">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-11 col-md-4">
+                            <img class="d-flex img-fluid  post-image" src="img/post_2.jpg"
+                                 alt="Generic placeholder image">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-8">
+                            <div class="media-body">
+                                <div class="card-body">
+                                    <a href="pages/second_post.php"><h2 align="justify" class="card-title">A tecnologia
+                                            muda seu cliente, você está mudando junto com ele?</h2></a>
+
+                                    <p align="justify" class="card-text">Fatores tecnológicos, junto com o cenário
+                                        econômico estão mudando o cenário de vendas como conhecemos, e é seu dever
+                                        repensar como lidar com seus clientes.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-footer text-muted">
                     Postado 18 de Setembro, 2017
                 </div>
             </div>
-			
-			
+
+
             <div class="card mb-4 my-4">
                 <div class="media">
-					<div class="row">
-						<div class="col-xs-12 col-sm-11 col-md-4">
-						<img class="d-flex img-fluid  post-image" src="img/post_1.jpg" alt="Generic placeholder image">
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-8">
-						<div class="media-body">
-							<div class="card-body">
-								<a href="pages/first_post.php"><h2 align="justify" class="card-title">Aprenda a diferença entre Shopper e
-										Consumidor</h2></a>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-11 col-md-4">
+                            <img class="d-flex img-fluid  post-image" src="img/post_1.jpg"
+                                 alt="Generic placeholder image">
+                        </div>
 
-								<p align="justify" class="card-text">Por que a diferença é tão importante para as técnicas de varejo da
-									atualidade!</p>
-							</div>
-						</div>
-						</div>
+                        <div class="col-xs-12 col-sm-12 col-md-8">
+                            <div class="media-body">
+                                <div class="card-body">
+                                    <a href="pages/first_post.php"><h2 align="justify" class="card-title">Aprenda a
+                                            diferença entre Shopper e
+                                            Consumidor</h2></a>
+
+                                    <p align="justify" class="card-text">Por que a diferença é tão importante para as
+                                        técnicas de varejo da
+                                        atualidade!</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-footer text-muted">
                     Postado 17 de Setembro, 2017
                 </div>
             </div>
-			
 
-			
+
         </div>
 
         <!-- Sidebar Widgets Column -->
@@ -145,7 +163,8 @@
 
                     <p class="news_t2">Newsletter</p>
 
-                    <p align="justify" class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se inscreva na
+                    <p align="justify" class="news_call text-left">Quer aprender mais sobre vendas e Trade Marketing? Se
+                        inscreva na
                         nossa newsletter semanal e saia na frente com conteúdo exclusivo e selecionado! </p>
 
                 </div>
