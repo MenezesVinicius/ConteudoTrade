@@ -98,7 +98,7 @@
 				</div>
 			
 				<div class="line2"> 
-				Fizemos esse ebook gratúito pra te mostrar 10 ferramentas que você precisa conhecer para fechar mais vendas!
+				Fizemos esse ebook gratuito pra te mostrar 10 ferramentas que você precisa conhecer para fechar mais vendas!
 				</div>
 				
 				<div class="text-center newsletter card-header">
