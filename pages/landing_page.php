@@ -29,6 +29,25 @@
         gtag('config', 'UA-106570963-1');
     </script>
 
+	
+	    <!-- Hotjar Tracking Code for conteudotrade.com -->
+		
+	<script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 630444, hjsv: 5};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+	
+	
+	
     <!-- Facebook Pixel Code -->
 
     <script>
@@ -64,27 +83,18 @@
         fbq('track', 'PageView');
 
 
+		
+		
         fbq('track', 'Lead');
+		
+	!function onClick() {
+		fbq('track', 'CompleteRegistration');
+		};
 
+	</script>
+	
 
-        fbq('track', 'CompleteRegistration');
-
-    </script>
-
-    <!-- Hotjar Tracking Code for conteudotrade.com -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {hjid: 630444, hjsv: 5};
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    
 
     <noscript>
 
@@ -98,6 +108,10 @@
 
     <!-- End Facebook Pixel Code -->
 
+	
+
+	
+	
 </head>
 <body class="main-area">
 <script>
@@ -195,12 +209,12 @@
                             <p class="news_t1">Baixe utilizando o Facebook:</p>
                         </div>
 
-                        <div class="fb-login-button fb-login-custom text-center" data-max-rows="1" data-size="large"
+                        <div onClick="onClick()" class="fb-login-button fb-login-custom text-center"  data-max-rows="1" data-size="large"
                              data-button-type="continue_with" data-show-faces="false"
                              data-auto-logout-link="false" data-use-continue-as="true"
                              data-scope="public_profile, email" onlogin="logInWithFacebook()"></div>
 
-                        <div class="text-center newsletter card-header">
+                        <div onClick="onClick()" class="text-center newsletter card-header">
                             <p class="news_t1">Baixe utilizando o Google:</p>
                         </div>
 
@@ -237,7 +251,7 @@
                                     </fieldset>
 
                                     <fieldset>
-                                        <button name="submit" type="submit" id="submit">Fazer Download</button>
+                                        <button onClick="onClick()" name="submit" type="submit" id="submit">Fazer Download</button>
                                     </fieldset>
                                 </form>
                             </div>
