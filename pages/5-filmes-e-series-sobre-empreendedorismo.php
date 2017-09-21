@@ -84,7 +84,7 @@
  
             <div class="ebook_box">
                 <div class="row">
-                    <div class="col-6 col-sm-12">
+                    <div class="col-6">
                         <div class="bb_c1">
 
 
@@ -98,7 +98,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-sm-12">
+                    <div class="col-6">
                         <div class="bb_c2">
                             <form id="contact2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                                 <p class="ebook_text2"> O mercado se atualiza todos os dias.<br> Você deve se atualizar
