@@ -12,6 +12,10 @@
     <!-- Custom styles for this template -->
     <link href="../css/blog-home.css" rel="stylesheet">
     <script src="../js/helpers.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id"
+          content="909023185464-gp7mqrd32ol2hai3o6jube9p8m771t6l.apps.googleusercontent.com">
+
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
     <script>
@@ -133,8 +137,6 @@
     function testAPI() {
 
         FB.api('/me', {fields: 'name, email'}, function (response) {
-            console.log(response.name);
-            console.log(response.email);
             $.ajax({ url: "<?php echo $_SERVER['PHP_SELF']; ?>",
                 data: {submit: 'login', nome: response.name, email: response.email},
                 type: 'post',
@@ -146,6 +148,21 @@
                 }
 
             });
+        });
+    }
+
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        $.ajax({ url: "<?php echo $_SERVER['PHP_SELF']; ?>",
+            data: {submit: 'login', nome: profile.getName(), email: profile.getEmail()},
+            type: 'post',
+            success: function (output) {
+                $('#thankyouModal').modal('show');
+            },
+            error: function (errpr) {
+                $('#errorModal').modal('show');
+            }
+
         });
     }
 
@@ -182,6 +199,15 @@
                              data-button-type="continue_with" data-show-faces="false"
                              data-auto-logout-link="false" data-use-continue-as="true"
                              data-scope="public_profile, email" onlogin="logInWithFacebook()"></div>
+
+                        <div class="text-center newsletter card-header">
+                            <p class="news_t1">Baixe utilizando o Google:</p>
+                        </div>
+
+                        <div class="text-center">
+                            <div class="g-signin2 align-content-center" data-width="240" data-height="40" data-longtitle="true"
+                                 data-onsuccess="onSignIn"></div>
+                        </div>
 
                         <div class="text-center newsletter card-header">
                             <p class="news_t1">Ou preencha para baixar o ebook:</p>

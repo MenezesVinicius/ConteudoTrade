@@ -26,12 +26,21 @@
       <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="79" selection-start="5222" selection-end="5222" vertical-scroll-proportion="2.609484" vertical-offset="1189" max-vertical-offset="7174">
+            <state line="191" column="30" selection-start="5581" selection-end="5581" vertical-scroll-proportion="0.42677826" vertical-offset="2941" max-vertical-offset="7616">
               <folding>
-                <element signature="e#6514#6535#0" expanded="true" />
-                <marker date="1505968536743" expanded="true" signature="15294:15362" placeholder="..." />
-                <marker date="1505968536743" expanded="true" signature="15426:15497" placeholder="..." />
+                <element signature="e#7598#7619#0" expanded="true" />
+                <marker date="1505972009937" expanded="true" signature="16378:16446" placeholder="..." />
+                <marker date="1505972009937" expanded="true" signature="16510:16581" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-home.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/blog-home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="7446">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +169,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConteudoTrade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -275,9 +298,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="271" column="5" selection-start="9188" selection-end="11448" vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="4811">
           <folding>
-            <element signature="e#6514#6535#0" expanded="true" />
-            <marker date="1505968536743" expanded="true" signature="15294:15362" placeholder="..." />
-            <marker date="1505968536743" expanded="true" signature="15426:15497" placeholder="..." />
+            <element signature="e#7598#7619#0" expanded="true" />
+            <marker date="1505972009937" expanded="true" signature="16378:16446" placeholder="..." />
+            <marker date="1505972009937" expanded="true" signature="16510:16581" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -343,22 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21069" selection-start="21285" selection-end="21285" vertical-scroll-proportion="0.14214046" vertical-offset="0" max-vertical-offset="598">
-          <folding>
-            <element signature="e#45568#45768#2" expanded="false" />
-            <element signature="e#45890#46039#2" expanded="false" />
-            <element signature="e#46185#46331#2" expanded="false" />
-            <element signature="e#46757#46920#1" expanded="false" />
-            <element signature="e#55587#55830#2" expanded="false" />
-            <element signature="e#56556#56805#2" expanded="false" />
-            <element signature="e#81351#81538#2" expanded="false" />
-            <element signature="e#81584#81773#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="23" selection-start="619" selection-end="619" vertical-scroll-proportion="0.8136752" vertical-offset="0" max-vertical-offset="612" />
@@ -401,16 +408,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/cover2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/cover_small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="21" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.84273505" vertical-offset="459" max-vertical-offset="5355">
@@ -421,20 +418,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="122742" selection-start="122958" selection-end="122958" vertical-scroll-proportion="0.11643836" vertical-offset="0" max-vertical-offset="730">
+          <folding>
+            <element signature="e#45568#45768#2" expanded="false" />
+            <element signature="e#45890#46039#2" expanded="false" />
+            <element signature="e#46185#46331#2" expanded="false" />
+            <element signature="e#46757#46920#1" expanded="false" />
+            <element signature="e#55587#55830#2" expanded="false" />
+            <element signature="e#56556#56805#2" expanded="false" />
+            <element signature="e#81351#81538#2" expanded="false" />
+            <element signature="e#81584#81773#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cover2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icone.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cover_small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/blog-home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.11440108" vertical-offset="0" max-vertical-offset="7293">
+        <state line="14" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="7446">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="79" selection-start="5222" selection-end="5222" vertical-scroll-proportion="2.609484" vertical-offset="1189" max-vertical-offset="7174">
+        <state line="191" column="30" selection-start="5581" selection-end="5581" vertical-scroll-proportion="0.42677826" vertical-offset="2941" max-vertical-offset="7616">
           <folding>
-            <element signature="e#6514#6535#0" expanded="true" />
-            <marker date="1505968536743" expanded="true" signature="15294:15362" placeholder="..." />
-            <marker date="1505968536743" expanded="true" signature="15426:15497" placeholder="..." />
+            <element signature="e#7598#7619#0" expanded="true" />
+            <marker date="1505972009937" expanded="true" signature="16378:16446" placeholder="..." />
+            <marker date="1505972009937" expanded="true" signature="16510:16581" placeholder="..." />
           </folding>
         </state>
       </provider>
