@@ -26,11 +26,11 @@
       <file leaf-file-name="landing_page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="232" column="46" selection-start="7775" selection-end="7775" vertical-scroll-proportion="0.68758714" vertical-offset="3451" max-vertical-offset="7616">
+            <state line="213" column="30" selection-start="6793" selection-end="6793" vertical-scroll-proportion="0.45048815" vertical-offset="3298" max-vertical-offset="7616">
               <folding>
-                <element signature="e#7598#7619#0" expanded="true" />
-                <marker date="1505972263544" expanded="true" signature="16365:16433" placeholder="..." />
-                <marker date="1505972263544" expanded="true" signature="16497:16568" placeholder="..." />
+                <element signature="e#7585#7606#0" expanded="true" />
+                <marker date="1505972713250" expanded="true" signature="16352:16420" placeholder="..." />
+                <marker date="1505972713250" expanded="true" signature="16484:16555" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="blog-home.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/blog-home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="7446">
+            <state line="45" column="21" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="7429">
               <folding />
             </state>
           </provider>
@@ -298,9 +298,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="271" column="5" selection-start="9188" selection-end="11448" vertical-scroll-proportion="0.0" vertical-offset="4158" max-vertical-offset="4811">
           <folding>
-            <element signature="e#7598#7619#0" expanded="true" />
-            <marker date="1505972263544" expanded="true" signature="16365:16433" placeholder="..." />
-            <marker date="1505972263544" expanded="true" signature="16497:16568" placeholder="..." />
+            <element signature="e#7585#7606#0" expanded="true" />
+            <marker date="1505972713250" expanded="true" signature="16352:16420" placeholder="..." />
+            <marker date="1505972713250" expanded="true" signature="16484:16555" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -451,18 +451,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blog-home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="7446">
+        <state line="45" column="21" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="7429">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="46" selection-start="7775" selection-end="7775" vertical-scroll-proportion="0.68758714" vertical-offset="3451" max-vertical-offset="7616">
+        <state line="213" column="30" selection-start="6793" selection-end="6793" vertical-scroll-proportion="0.45048815" vertical-offset="3298" max-vertical-offset="7616">
           <folding>
-            <element signature="e#7598#7619#0" expanded="true" />
-            <marker date="1505972263544" expanded="true" signature="16365:16433" placeholder="..." />
-            <marker date="1505972263544" expanded="true" signature="16497:16568" placeholder="..." />
+            <element signature="e#7585#7606#0" expanded="true" />
+            <marker date="1505972713250" expanded="true" signature="16352:16420" placeholder="..." />
+            <marker date="1505972713250" expanded="true" signature="16484:16555" placeholder="..." />
           </folding>
         </state>
       </provider>

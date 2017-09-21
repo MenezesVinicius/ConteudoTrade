@@ -210,7 +210,7 @@
                         </div>
 
                         <div class="text-center newsletter card-header">
-                            <p class="news_t1">Ou preencha para baixar o ebook:</p>
+                            <p class="news_t1">Ou preencha abaixo:</p>
                         </div>
 
                         <div class="container">

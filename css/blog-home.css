@@ -28,10 +28,9 @@
 }
 
 .line1 {
-  padding-top: 50px;
   font-family: 'Open Sans';
-  font-size: 25px;
-  line-height: 1.2;
+  font-size: 30px;
+  line-height: 1.6;
   text-align: center;
   color: #696969;
 }   
@@ -43,8 +42,8 @@
 .right_side {
 	padding-left: 5%;
 	padding-right: 8%;
-	padding-top: 45px;
-	padding-bottom: 65px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 }
 
 .vcenter {
@@ -59,10 +58,10 @@
 }
 
 .line2 {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 15px;
   font-family: 'Open Sans';
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   color: #696969;
