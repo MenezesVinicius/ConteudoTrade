@@ -48,13 +48,11 @@
 
         fbq('init', '1730534133916400'); 
 
-        fbq('track', 'PageView');
 		
 		
 		fbq('track', 'Lead');
 		
 		
-		fbq('track', 'CompleteRegistration');
 
     </script>
 
@@ -184,37 +182,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
