@@ -24,57 +24,69 @@
 
         gtag('config', 'UA-106570963-1');
     </script>
-    
+
     <!-- Facebook Pixel Code -->
 
     <script>
 
-        !function(f,b,e,v,n,t,s)
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ?
 
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
 
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if (!f._fbq)f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
 
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
 
-        n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
 
-        t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
 
-        s.parentNode.insertBefore(t,s)}(window,document,'script',
-
-        'https://connect.facebook.net/en_US/fbevents.js');
+                'https://connect.facebook.net/en_US/fbevents.js');
 
 
-        fbq('init', '1730534133916400'); 
+        fbq('init', '1730534133916400');
 
         fbq('track', 'PageView');
-		
-		
-		fbq('track', 'Lead');
-		
-		
-		fbq('track', 'CompleteRegistration');
+
+
+        fbq('track', 'Lead');
+
+
+        fbq('track', 'CompleteRegistration');
 
     </script>
 
-	<!-- Hotjar Tracking Code for conteudotrade.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:630444,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-	
+    <!-- Hotjar Tracking Code for conteudotrade.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 630444, hjsv: 5};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
     <noscript>
 
-        <img height="1" width="1" 
+        <img height="1" width="1"
 
-        src="https://www.facebook.com/tr?id=1730534133916400&ev=PageView
+             src="https://www.facebook.com/tr?id=1730534133916400&ev=PageView
 
         &noscript=1"/>
 
@@ -84,148 +96,182 @@
 
 </head>
 <body class="main-area">
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '179876649248623',
+            cookie: true,
+            xfbml: true,
+            version: 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    logInWithFacebook = function () {
+        FB.login(function (response) {
+            if (response.authResponse) {
+                testAPI();
+
+            } else {
+                alert('User cancelled login or did not fully authorize.');
+            }
+        });
+        return false;
+    };
+
+    function testAPI() {
+
+        FB.api('/me', {fields: 'name, email'}, function (response) {
+            console.log(response.name);
+            console.log(response.email);
+            $.ajax({ url: "<?php echo $_SERVER['PHP_SELF']; ?>",
+                data: {submit: 'login', nome: response.name, email: response.email},
+                type: 'post',
+                success: function (output) {
+                    $('#thankyouModal').modal('show');
+                },
+                error: function (errpr) {
+                    $('#errorModal').modal('show');
+                }
+
+            });
+        });
+    }
+
+</script>
 
 
-<div  class="container eltopo">
-	<div class="elbg">
-		<div class="row">
-			<div class="col-md-6">
-		
-				<img class="img-fluid" src="../img/10_ferramentas_para.jpg" />
-		
-			</div>
-			
-			<div class="col-md-6">
+<div class="container eltopo">
+    <div class="elbg">
+        <div class="row">
+            <div class="col-md-6">
 
-			<div class="right_side">
-			<div class="">
-				<div class="line1"> 
-				Conheça “10 ferramentas de automação e gestão de vendas” que vão te ajudar a virar o jogo!
-				</div>
-			
-				<div class="line2"> 
-				Fizemos esse ebook gratuito pra te mostrar 10 ferramentas que você precisa conhecer para fechar mais vendas!
-				</div>
-				
-				<div class="text-center newsletter card-header">
-                    <p class="news_t1">Preencha para baixar o ebook:</p>
-                </div>
-                
-				<div class="container">
-					<div class="card-body card-form">
-						<form id="contact" method="post" onsubmit="return validate()"
-							action="<?php echo $_SERVER['PHP_SELF']; ?>">
-							<fieldset>
-								<label> Nome completo: </label>
-								<input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome" id="nome_form"
-                                   required>
-							</fieldset>
-                        
-							<div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
-								Nome Completo inválido!
-							</div>
-                        
-							<fieldset>
-								<label> Email profissional: </label>
-								<input placeholder="seu@email.com.br" type="email" tabindex="3" name="email" required>
-							</fieldset>
+                <img class="img-fluid" src="../img/10_ferramentas_para.jpg"/>
 
-							<fieldset>
-								<button name="submit" type="submit" id="submit">Fazer Download</button>
-							</fieldset>
-                    </form>
-					</div>
-				</div>
-			</div>
-			</div>
-			
-			<!-- Modal -->
-    <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Sucesso!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Seu ebook foi enviado para o seu email! Aproveite a leitura!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
             </div>
+
+            <div class="col-md-6">
+
+                <div class="right_side">
+                    <div class="">
+                        <div class="line1">
+                            Conheça “10 ferramentas de automação e gestão de vendas” que vão te ajudar a virar o jogo!
+                        </div>
+
+                        <div class="line2">
+                            Fizemos esse ebook gratuito pra te mostrar 10 ferramentas que você precisa conhecer para
+                            fechar mais vendas!
+                        </div>
+
+                        <div class="text-center newsletter card-header">
+                            <p class="news_t1">Baixe utilizando o Facebook:</p>
+                        </div>
+
+                        <div class="fb-login-button fb-login-custom text-center" data-max-rows="1" data-size="large"
+                             data-button-type="continue_with" data-show-faces="false"
+                             data-auto-logout-link="false" data-use-continue-as="true"
+                             data-scope="public_profile, email" onlogin="logInWithFacebook()"></div>
+
+                        <div class="text-center newsletter card-header">
+                            <p class="news_t1">Ou preencha para baixar o ebook:</p>
+                        </div>
+
+                        <div class="container">
+                            <div class="card-body card-form">
+
+
+                                <form id="contact" method="post" onsubmit="return validate()"
+                                      action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                                    <fieldset>
+                                        <label> Nome completo: </label>
+                                        <input placeholder="Seu Nome Completo" type="text" tabindex="1" name="nome"
+                                               id="nome_form"
+                                               required>
+                                    </fieldset>
+
+                                    <div class="alert alert-danger" role="alert" id="alert_nome" style="display: none">
+                                        Nome Completo inválido!
+                                    </div>
+
+                                    <fieldset>
+                                        <label> Email profissional: </label>
+                                        <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email"
+                                               required>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <button name="submit" type="submit" id="submit">Fazer Download</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="thankyouModal" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sucesso!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Seu ebook foi enviado para o seu email! Aproveite a leitura!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Erro!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Erro ao tentar enviar e-mail! Por favor, tente novamente.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
+
+
     </div>
 
-    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Erro!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Erro ao tentar enviar e-mail! Por favor, tente novamente.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</div>
-
 </div>
 </div>
 
-    
-
-    
 
 <footer>
     <div class="container text-center">
@@ -357,13 +403,14 @@ if (isset($_POST['submit'])) {
 
         $mail->Send();
         //caso apresente algum erro é apresentado abaixo com essa exceção.
+
+        echo "<script>
+             $('#thankyouModal').modal('show');
+          </script>";
+
     } catch (phpmailerException $e) {
         echo "<script>
                 $('#errorModal').modal('show');
              </script>";
     }
-
-    echo "<script>
-             $('#thankyouModal').modal('show');
-          </script>";
 }

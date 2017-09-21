@@ -14,6 +14,10 @@
 
 .eltopo {margin-top: 4%;}
 
+.fb-login-custom{
+    display: block !important;
+}
+
 .line1 {
   padding-top: 50px;
   font-family: 'Open Sans';
