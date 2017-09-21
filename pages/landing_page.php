@@ -231,7 +231,7 @@
                                     </div>
 
                                     <fieldset>
-                                        <label> Email profissional: </label>
+                                        <label> Email: </label>
                                         <input placeholder="seu@email.com.br" type="email" tabindex="3" name="email"
                                                required>
                                     </fieldset>
