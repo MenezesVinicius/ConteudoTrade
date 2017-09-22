@@ -16,6 +16,11 @@
     <meta name="google-signin-client_id"
           content="909023185464-gp7mqrd32ol2hai3o6jube9p8m771t6l.apps.googleusercontent.com">
 
+	<meta property=”og:image” content=”http://www.conteudotrade.com/img/10_ferramentas_para.jpg" />
+	<meta property=”og:title” content="Veja 10 ferramentas de automação neste livro gratuito." />
+	<meta property=”og:description” content="O mercado se atualiza todos os dias. Você deve se atualizar também! É um grande desafio se manter em dia com todas as oportunidades, por isso criamos este ebook com ferramentas para automatizar seu negócio."/>	  
+		  
+		  
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
     <script>
