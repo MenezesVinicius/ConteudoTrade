@@ -18,7 +18,8 @@
 
 	<meta property="og:image" content="http://www.conteudotrade.com/img/10_ferramentas_para_mini.jpg" />
 	<meta property="og:title" content="Veja 10 ferramentas de automação neste livro gratuito." />
-	<meta property="og:description" content="O mercado se atualiza todos os dias. Você deve se atualizar também! É um grande desafio se manter em dia com todas as oportunidades, por isso criamos este ebook com ferramentas para automatizar seu negócio."/>	  
+	<meta property="og:description" content="O mercado se atualiza todos os dias. Você deve se atualizar também! É um grande desafio se manter em dia com todas as oportunidades, por isso criamos este ebook com ferramentas para automatizar seu negócio."/>	
+	<meta property='og:url' content="www.conteudotrade.com/pages/landing_page.php" />	
 		  
 		  
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
