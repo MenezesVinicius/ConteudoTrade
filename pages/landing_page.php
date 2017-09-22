@@ -114,7 +114,6 @@
 
     <!-- End Facebook Pixel Code -->
 
-<<<<<<< HEAD
     <!-- Start of Async Drift Code -->
 <script>
 !function() {
@@ -140,12 +139,6 @@ drift.load('9wbv5bu7rus9');
 </script>
 <!-- End of Async Drift Code -->
 
-=======
-	
-
-	
-	
->>>>>>> 76e896fbad0e2376696d2cef8d97bc34326c86b6
 </head>
 <body class="main-area">
 <script>
