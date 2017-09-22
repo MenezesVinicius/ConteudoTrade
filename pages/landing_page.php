@@ -16,6 +16,12 @@
     <meta name="google-signin-client_id"
           content="909023185464-gp7mqrd32ol2hai3o6jube9p8m771t6l.apps.googleusercontent.com">
 
+	<meta property="og:image" content="http://www.conteudotrade.com/img/10_ferramentas_para_mini.jpg" />
+	<meta property="og:title" content="Veja 10 ferramentas de automação neste livro gratuito." />
+	<meta property="og:description" content="O mercado se atualiza todos os dias. Você deve se atualizar também! É um grande desafio se manter em dia com todas as oportunidades, por isso criamos este ebook com ferramentas para automatizar seu negócio."/>	
+	<meta property='og:url' content="www.conteudotrade.com/pages/landing_page.php" />	
+		  
+		  
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106570963-1"></script>
     <script>
@@ -29,6 +35,25 @@
         gtag('config', 'UA-106570963-1');
     </script>
 
+	
+	    <!-- Hotjar Tracking Code for conteudotrade.com -->
+		
+	<script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 630444, hjsv: 5};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+	
+	
+	
     <!-- Facebook Pixel Code -->
 
     <script>
@@ -64,27 +89,18 @@
         fbq('track', 'PageView');
 
 
+		
+		
         fbq('track', 'Lead');
+		
+	!function onClick() {
+		fbq('track', 'CompleteRegistration');
+		};
 
+	</script>
+	
 
-        fbq('track', 'CompleteRegistration');
-
-    </script>
-
-    <!-- Hotjar Tracking Code for conteudotrade.com -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {hjid: 630444, hjsv: 5};
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    
 
     <noscript>
 
@@ -98,6 +114,7 @@
 
     <!-- End Facebook Pixel Code -->
 
+<<<<<<< HEAD
     <!-- Start of Async Drift Code -->
 <script>
 !function() {
@@ -123,6 +140,12 @@ drift.load('9wbv5bu7rus9');
 </script>
 <!-- End of Async Drift Code -->
 
+=======
+	
+
+	
+	
+>>>>>>> 76e896fbad0e2376696d2cef8d97bc34326c86b6
 </head>
 <body class="main-area">
 <script>
@@ -220,12 +243,12 @@ drift.load('9wbv5bu7rus9');
                             <p class="news_t1">Baixe utilizando o Facebook:</p>
                         </div>
 
-                        <div class="fb-login-button fb-login-custom text-center" data-max-rows="1" data-size="large"
+                        <div onClick="onClick()" class="fb-login-button fb-login-custom text-center"  data-max-rows="1" data-size="large"
                              data-button-type="continue_with" data-show-faces="false"
                              data-auto-logout-link="false" data-use-continue-as="true"
                              data-scope="public_profile, email" onlogin="logInWithFacebook()"></div>
 
-                        <div class="text-center newsletter card-header">
+                        <div onClick="onClick()" class="text-center newsletter card-header">
                             <p class="news_t1">Baixe utilizando o Google:</p>
                         </div>
 
@@ -262,7 +285,7 @@ drift.load('9wbv5bu7rus9');
                                     </fieldset>
 
                                     <fieldset>
-                                        <button name="submit" type="submit" id="submit">Fazer Download</button>
+                                        <button onClick="onClick()" name="submit" type="submit" id="submit">Fazer Download</button>
                                     </fieldset>
                                 </form>
                             </div>
